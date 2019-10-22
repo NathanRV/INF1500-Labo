@@ -1,0 +1,12 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <MUX_5B_ATAD_SPLIT_5_0_5> not found while processing module instance <ATAD_SPLIT_5_1> [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/10be/sim/MUX_5B.v:78]
+ERROR: [VRFC 10-2063] Module <MUX_5B_ATAD_SPLIT_5_0_6> not found while processing module instance <ATAD_SPLIT_5_2> [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/10be/sim/MUX_5B.v:85]
+ERROR: [VRFC 10-2063] Module <MUX_5B_ATAD_SPLIT_5_0_7> not found while processing module instance <ATAD_SPLIT_5_3> [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/10be/sim/MUX_5B.v:92]
+ERROR: [VRFC 10-2063] Module <MUX_5B_MUX_1B_0_6> not found while processing module instance <MUX_1B_1> [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/10be/sim/MUX_5B.v:107]
+ERROR: [VRFC 10-2063] Module <MUX_5B_MUX_1B_0_7> not found while processing module instance <MUX_1B_2> [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/10be/sim/MUX_5B.v:115]
+ERROR: [VRFC 10-2063] Module <MUX_5B_MUX_1B_0_8> not found while processing module instance <MUX_1B_3> [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/10be/sim/MUX_5B.v:123]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

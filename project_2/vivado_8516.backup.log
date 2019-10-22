@@ -1,0 +1,1223 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct  8 15:36:22 2019
+# Process ID: 8516
+# Current directory: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8484 D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_2\project_2.xpr
+# Log file: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/vivado.log
+# Journal file: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'mini_UAL.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+mini_UAL_four_bit_full_adder_0_0
+
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 715.859 ; gain = 74.313
+update_compile_order -fileset sources_1
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_3
+Adding component instance block -- xilinx.com:xup:xup_4_to_1_mux_vector:1.0 - xup_4_to_1_mux_vector_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_1
+Adding component instance block -- xilinx.com:user:MIROIR_5B:1.0 - MIROIR_5B_0
+Adding component instance block -- xilinx.com:user:DIV_4_5B:1.0 - DIV_4_5B_0
+Adding component instance block -- xilinx.com:user:four_bit_full_adder:1.0 - four_bit_full_adder_0
+Successfully read diagram <mini_UAL> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd>
+report_ip_status -name ip_status 
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder}} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB}} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/1B_full_add} {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB}} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/1B_full_add'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+report_ip_status -name ip_status 
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'mini_UAL_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mini_UAL_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xup_xor2_0_0/sim/mini_UAL_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_0_0/sim/mini_UAL_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_0_1/sim/mini_UAL_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_2_0/sim/mini_UAL_xlconcat_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_2_1/sim/mini_UAL_xlconcat_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/625c/xup_4_to_1_mux_vector.srcs/sources_1/new/xup_4_to_1_mux_vector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_4_to_1_mux_vector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xup_4_to_1_mux_vector_0_0/sim/mini_UAL_xup_4_to_1_mux_vector_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xup_4_to_1_mux_vector_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_0/sim/MIROIR_5B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_1/sim/MIROIR_5B_xup_xor2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_2/sim/MIROIR_5B_xup_xor2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_3/sim/MIROIR_5B_xup_xor2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_4/sim/MIROIR_5B_xup_xor2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/ipshared/3146/xup_nor5.srcs/sources_1/new/xup_nor5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_nor5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_nor5_0_0/sim/MIROIR_5B_xup_nor5_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xlconcat_0_0/sim/MIROIR_5B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_5/sim/MIROIR_5B_xup_xor2_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_nor5_0_1/sim/MIROIR_5B_xup_nor5_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xlconcat_0_1/sim/MIROIR_5B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/522b/sim/MIROIR_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/sim/mini_UAL_MIROIR_5B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_MIROIR_5B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/sim/DIV_4_5B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/sim/DIV_4_5B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/a47a/sim/DIV_4_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/sim/mini_UAL_DIV_4_5B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_DIV_4_5B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/sim/mini_UAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_wrapper
+"xvhdl --incr --relax -prj mini_UAL_wrapper_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <mini_UAL_four_bit_full_adder_0_0> not found while processing module instance <four_bit_full_adder_0> [D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/sim/mini_UAL.v:76]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 852.012 ; gain = 15.496
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_project
+open_project {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV__5B_4'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV__5B_4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/four_bit_full_adder.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_1
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_2
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_3
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:xup:xup_nor4:1.0 - xup_nor4_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_4
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_0
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_1
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_2
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_3
+Successfully read diagram <four_bit_full_adder> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/four_bit_full_adder.bd>
+ipx::package_project -root_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add} -vendor xilinx.com -library user -taxonomy /UserIP -module four_bit_full_adder -import_files -force
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'four_bit_full_adder' - hence not re-generating.
+WARNING: [IP_Flow 19-991] Unrecognized or unsupported file 'sim/four_bit_full_adder.protoinst' found in file group 'Simulation'.
+Resolution: Remove the file from the specified file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::remove_file sim/four_bit_full_adder.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:4B_full_add:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:4B_full_add:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:4B_full_add:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:4B_full_add:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:4B_full_add:1.0]
+update_ip_catalog -rebuild -repo_path {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo'
+set_property core_revision 3 [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+update_ip_catalog -rebuild -repo_path {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo'
+close_project
+open_project {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/1B_full_add'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'mini_UAL.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+mini_UAL_four_bit_full_adder_0_0
+
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/1B_full_add'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB}} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/4B_full_add'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB}} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B} {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_1B} {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_4B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB}} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_1B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+report_ip_status -name ip_status 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Vivado 12-5777] IP Instance 'mini_UAL_four_bit_full_adder_0_0' cannot be used in a module reference: 
+INFO: [Common 17-14] Message 'Vivado 12-5777' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_3
+Adding component instance block -- xilinx.com:xup:xup_4_to_1_mux_vector:1.0 - xup_4_to_1_mux_vector_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_1
+Adding component instance block -- xilinx.com:user:MIROIR_5B:1.0 - MIROIR_5B_0
+Adding component instance block -- xilinx.com:user:DIV_4_5B:1.0 - DIV_4_5B_0
+Adding component instance block -- xilinx.com:user:four_bit_full_adder:1.0 - four_bit_full_adder_0
+Successfully read diagram <mini_UAL> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:full_add_4B:1.0 full_add_4B_0
+endgroup
+set_property location {4 652 180} [get_bd_cells full_add_4B_0]
+delete_bd_objs [get_bd_nets xlconcat_0_dout]
+connect_bd_net [get_bd_pins full_add_4B_0/a] [get_bd_pins xlconcat_0/dout]
+delete_bd_objs [get_bd_nets xlconcat_1_dout]
+connect_bd_net [get_bd_pins xlconcat_1/dout] [get_bd_pins full_add_4B_0/b]
+delete_bd_objs [get_bd_nets R0_1]
+connect_bd_net [get_bd_ports R0] [get_bd_pins xlconcat_2/In0]
+connect_bd_net [get_bd_ports R0] [get_bd_pins full_add_4B_0/cin]
+delete_bd_objs [get_bd_nets four_bit_full_adder_0_S]
+connect_bd_net [get_bd_pins full_add_4B_0/S] [get_bd_pins xlconcat_3/In0]
+delete_bd_objs [get_bd_nets four_bit_full_adder_0_Zero]
+connect_bd_net [get_bd_pins full_add_4B_0/Zero] [get_bd_pins xup_xor2_0/b]
+connect_bd_net [get_bd_pins xup_xor2_0/a] [get_bd_pins full_add_4B_0/Zero]
+delete_bd_objs [get_bd_nets four_bit_full_adder_0_cout]
+connect_bd_net [get_bd_ports cout] [get_bd_pins full_add_4B_0/cout]
+delete_bd_objs [get_bd_cells four_bit_full_adder_0]
+regenerate_bd_layout
+save_bd_design
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+Wrote  : <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/ui/bd_be801e78.ui> 
+validate_bd_design
+save_bd_design
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+Wrote  : <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/ui/bd_be801e78.ui> 
+generate_target Simulation [get_files {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}]
+WARNING: [Vivado 12-818] No files matched 'D:/Users/Nathan/Professionnal'
+WARNING: [Vivado 12-818] No files matched 'Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd'
+export_ip_user_files -of_objects [get_files {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}] -no_script -sync -force -quiet
+WARNING: [Vivado 12-818] No files matched 'D:/Users/Nathan/Professionnal'
+WARNING: [Vivado 12-818] No files matched 'Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd'
+export_simulation -of_objects [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}}] -directory {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/sim_scripts} -ip_user_files_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files} -ipstatic_source_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [BD 41-1662] The design 'mini_UAL.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/sim/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_4_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIROIR_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_5B_0 .
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/four_bit_full_adder_one_bit_full_adder_0_0/src/one_bit_full_adder_xup_and2_0_1/one_bit_full_adder_xup_and2_0_1.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block full_add_4B_0 
+Exporting to file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.hwdef
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'mini_UAL_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mini_UAL_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xup_xor2_0_0/sim/mini_UAL_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_0_0/sim/mini_UAL_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_0_1/sim/mini_UAL_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_2_0/sim/mini_UAL_xlconcat_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_2_1/sim/mini_UAL_xlconcat_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/625c/xup_4_to_1_mux_vector.srcs/sources_1/new/xup_4_to_1_mux_vector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_4_to_1_mux_vector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xup_4_to_1_mux_vector_0_0/sim/mini_UAL_xup_4_to_1_mux_vector_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xup_4_to_1_mux_vector_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_0/sim/MIROIR_5B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_1/sim/MIROIR_5B_xup_xor2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_2/sim/MIROIR_5B_xup_xor2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_3/sim/MIROIR_5B_xup_xor2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_4/sim/MIROIR_5B_xup_xor2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/ipshared/3146/xup_nor5.srcs/sources_1/new/xup_nor5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_nor5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_nor5_0_0/sim/MIROIR_5B_xup_nor5_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xlconcat_0_0/sim/MIROIR_5B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_5/sim/MIROIR_5B_xup_xor2_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_nor5_0_1/sim/MIROIR_5B_xup_nor5_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xlconcat_0_1/sim/MIROIR_5B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/522b/sim/MIROIR_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/sim/mini_UAL_MIROIR_5B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_MIROIR_5B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/sim/DIV_4_5B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/sim/DIV_4_5B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/a47a/sim/DIV_4_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/sim/mini_UAL_DIV_4_5B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_DIV_4_5B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/sim/mini_UAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_wrapper
+"xvhdl --incr --relax -prj mini_UAL_wrapper_vhdl.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1161.094 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <mini_UAL_four_bit_full_adder_0_0> not found while processing module instance <four_bit_full_adder_0> [D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/sim/mini_UAL.v:76]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1161.094 ; gain = 12.063
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_project
+open_project {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV__5B_4'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV__5B_4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/four_bit_full_adder.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_1
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_2
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_3
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:xup:xup_nor4:1.0 - xup_nor4_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_4
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_0
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_1
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_2
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_3
+Successfully read diagram <four_bit_full_adder> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/four_bit_full_adder.bd>
+save_bd_design_as full_add_4B
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_1\project_1.srcs\sources_1\bd\full_add_4B\full_add_4B.bd> 
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_1\project_1.srcs\sources_1\bd\full_add_4B\full_add_4B.bd> 
+Wrote  : <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/ui/bd_d00bfa9c.ui> 
+add_files -norecurse {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/full_add_4B.bd}}
+export_ip_user_files -of_objects  [get_files  {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/full_add_4B.bd}}] -lib_map_path [list {modelsim=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/activehdl}] -force -quiet
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/full_add_4B.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_1
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_2
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_3
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:xup:xup_nor4:1.0 - xup_nor4_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_4
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_0
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_1
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_2
+Adding component instance block -- xilinx.com:user:one_bit_full_adder:1.0 - one_bit_full_adder_3
+Successfully read diagram <full_add_4B> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/full_add_4B.bd>
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/full_add_4B.bd}}] -top
+INFO: [BD 41-1662] The design 'full_add_4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/synth/full_add_4B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/sim/full_add_4B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/hdl/full_add_4B_wrapper.v
+add_files -norecurse {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/hdl/full_add_4B_wrapper.v}}
+export_ip_user_files -of_objects  [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/hdl/four_bit_full_adder_wrapper.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/hdl/four_bit_full_adder_wrapper.v}}
+file delete -force {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/hdl/four_bit_full_adder_wrapper.v}
+current_bd_design [get_bd_designs four_bit_full_adder]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/four_bit_full_adder.bd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder/four_bit_full_adder.bd}}
+delete_ip_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1293.094 ; gain = 0.469
+remove_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1293.094 ; gain = 0.469
+file delete -force {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/four_bit_full_adder}
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/one_bit_full_adder/one_bit_full_adder.bd}
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding component instance block -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_1
+Successfully read diagram <one_bit_full_adder> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/one_bit_full_adder/one_bit_full_adder.bd>
+update_compile_order -fileset sources_1
+save_bd_design_as full_add_1B
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_1\project_1.srcs\sources_1\bd\full_add_1B\full_add_1B.bd> 
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_1\project_1.srcs\sources_1\bd\full_add_1B\full_add_1B.bd> 
+Wrote  : <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/ui/bd_4477885f.ui> 
+add_files -norecurse {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/full_add_1B.bd}}
+export_ip_user_files -of_objects  [get_files  {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/full_add_1B.bd}}] -lib_map_path [list {modelsim=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.cache/compile_simlib/activehdl}] -force -quiet
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/full_add_1B.bd}
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding component instance block -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_1
+Successfully read diagram <full_add_1B> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/full_add_1B.bd>
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/full_add_1B.bd}}] -top
+INFO: [BD 41-1662] The design 'full_add_1B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/synth/full_add_1B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/sim/full_add_1B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/hdl/full_add_1B_wrapper.v
+add_files -norecurse {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/hdl/full_add_1B_wrapper.v}}
+export_ip_user_files -of_objects  [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/one_bit_full_adder/one_bit_full_adder.bd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/one_bit_full_adder/one_bit_full_adder.bd}}
+file delete -force {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/one_bit_full_adder}
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+current_bd_design [get_bd_designs full_add_4B]
+ipx::package_project -root_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_1B} -vendor xilinx.com -library user -taxonomy /UserIP -module full_add_1B -import_files -force
+INFO: [BD 41-1662] The design 'full_add_1B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/synth/full_add_1B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/sim/full_add_1B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/hdl/full_add_1B_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_1 .
+Exporting to file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/hw_handoff/full_add_1B.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/hw_handoff/full_add_1B_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_1B/synth/full_add_1B.hwdef
+WARNING: [IP_Flow 19-991] Unrecognized or unsupported file 'sim/full_add_1B.protoinst' found in file group 'Simulation'.
+Resolution: Remove the file from the specified file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::remove_file sim/full_add_1B.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:full_add_1B:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:full_add_1B:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:full_add_1B:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:full_add_1B:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:full_add_1B:1.0]
+update_ip_catalog -rebuild -repo_path {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:full_add_1B:1.0 full_add_1B_0
+endgroup
+set_property location {4 656 12} [get_bd_cells full_add_1B_0]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_4_0_VOUT0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_4_0/VOUT0] [get_bd_pins full_add_1B_0/A]
+delete_bd_objs [get_bd_nets xup_xor2_0_y]
+connect_bd_net [get_bd_pins xup_xor2_0/y] [get_bd_pins full_add_1B_0/B]
+delete_bd_objs [get_bd_nets cin_1]
+connect_bd_net [get_bd_ports cin] [get_bd_pins xup_xor2_0/b]
+connect_bd_net [get_bd_ports cin] [get_bd_pins xup_xor2_1/b]
+connect_bd_net [get_bd_ports cin] [get_bd_pins xup_xor2_3/b]
+connect_bd_net [get_bd_ports cin] [get_bd_pins xup_xor2_2/b]
+connect_bd_net [get_bd_ports cin] [get_bd_pins xup_xor2_4/b]
+connect_bd_net [get_bd_ports cin] [get_bd_pins full_add_1B_0/CIN]
+delete_bd_objs [get_bd_nets one_bit_full_adder_0_COUT] [get_bd_cells one_bit_full_adder_0]
+connect_bd_net [get_bd_pins full_add_1B_0/COUT] [get_bd_pins one_bit_full_adder_1/CIN]
+set_property location {3 706 213} [get_bd_cells full_add_1B_0]
+connect_bd_net [get_bd_pins full_add_1B_0/S] [get_bd_pins xup_nor4_0/a]
+copy_bd_objs /  [get_bd_cells {full_add_1B_0}]
+delete_bd_objs [get_bd_nets full_add_1B_0_COUT] [get_bd_nets ATAD_SPLIT_4_0_VOUT1] [get_bd_nets xup_xor2_1_y] [get_bd_nets one_bit_full_adder_1_COUT] [get_bd_cells one_bit_full_adder_1]
+connect_bd_net [get_bd_pins full_add_1B_1/COUT] [get_bd_pins one_bit_full_adder_3/CIN]
+connect_bd_net [get_bd_pins full_add_1B_1/S] [get_bd_pins xup_nor4_0/b]
+connect_bd_net [get_bd_pins full_add_1B_1/A] [get_bd_pins ATAD_SPLIT_4_0/VOUT1]
+connect_bd_net [get_bd_pins full_add_1B_1/B] [get_bd_pins xup_xor2_1/y]
+connect_bd_net [get_bd_pins full_add_1B_0/COUT] [get_bd_pins full_add_1B_1/CIN]
+copy_bd_objs /  [get_bd_cells {full_add_1B_1}]
+copy_bd_objs /  [get_bd_cells {full_add_1B_1}]
+set_property location {6 1321 41} [get_bd_cells full_add_1B_2]
+set_property location {5 1156 41} [get_bd_cells full_add_1B_3]
+connect_bd_net [get_bd_pins full_add_1B_3/COUT] [get_bd_pins full_add_1B_2/CIN]
+delete_bd_objs [get_bd_nets full_add_1B_1_COUT] [get_bd_nets ATAD_SPLIT_4_0_VOUT2] [get_bd_nets xup_xor2_3_y] [get_bd_nets one_bit_full_adder_3_COUT] [get_bd_cells one_bit_full_adder_3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_4_0/VOUT2] [get_bd_pins full_add_1B_3/A]
+connect_bd_net [get_bd_pins xup_xor2_3/y] [get_bd_pins full_add_1B_3/B]
+connect_bd_net [get_bd_pins full_add_1B_1/COUT] [get_bd_pins full_add_1B_3/CIN]
+connect_bd_net [get_bd_pins full_add_1B_3/S] [get_bd_pins xup_nor4_0/d]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_4_0_VOUT3] [get_bd_nets xup_xor2_2_y] [get_bd_nets one_bit_full_adder_2_COUT] [get_bd_cells one_bit_full_adder_2]
+connect_bd_net [get_bd_pins full_add_1B_2/S] [get_bd_pins xup_nor4_0/c]
+connect_bd_net [get_bd_pins full_add_1B_2/COUT] [get_bd_pins xup_xor2_4/a]
+connect_bd_net [get_bd_pins xup_xor2_2/y] [get_bd_pins full_add_1B_2/B]
+connect_bd_net [get_bd_pins ATAD_SPLIT_4_0/VOUT3] [get_bd_pins full_add_1B_2/A]
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_1\project_1.srcs\sources_1\bd\full_add_4B\full_add_4B.bd> 
+Wrote  : <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/ui/bd_d00bfa9c.ui> 
+ipx::package_project -root_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_4B} -vendor xilinx.com -library user -taxonomy /UserIP -module full_add_4B -import_files -force
+INFO: [BD 41-1662] The design 'full_add_4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/synth/full_add_4B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/sim/full_add_4B.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/hdl/full_add_4B_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_4_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_add_1B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_add_1B_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_add_1B_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_add_1B_3 .
+Exporting to file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/hw_handoff/full_add_4B.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/hw_handoff/full_add_4B_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.srcs/sources_1/bd/full_add_4B/synth/full_add_4B.hwdef
+WARNING: [IP_Flow 19-991] Unrecognized or unsupported file 'sim/full_add_4B.protoinst' found in file group 'Simulation'.
+Resolution: Remove the file from the specified file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::remove_file sim/full_add_4B.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:full_add_4B:1.0]
+update_ip_catalog -rebuild -repo_path {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo'
+close_project
+open_project {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV_4_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_1B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/full_add_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'mini_UAL.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+mini_UAL_full_add_4B_0_0
+
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip -vlnv xilinx.com:user:full_add_4B:1.0 [get_ips  mini_UAL_full_add_4B_0_0] -log ip_upgrade.log
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_3
+Adding component instance block -- xilinx.com:xup:xup_4_to_1_mux_vector:1.0 - xup_4_to_1_mux_vector_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_1
+Adding component instance block -- xilinx.com:user:MIROIR_5B:1.0 - MIROIR_5B_0
+Adding component instance block -- xilinx.com:user:DIV_4_5B:1.0 - DIV_4_5B_0
+Adding component instance block -- xilinx.com:user:full_add_4B:1.0 - full_add_4B_0
+Successfully read diagram <mini_UAL> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd>
+Upgrading 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd'
+INFO: [IP_Flow 19-3422] Upgraded mini_UAL_full_add_4B_0_0 (full_add_4B_v1_0 1.0) from revision 3 to revision 2
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+Wrote  : <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/ui/bd_be801e78.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips mini_UAL_full_add_4B_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}}]
+Wrote  : <D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/sim/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_4_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIROIR_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_add_4B_0 .
+Exporting to file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.hwdef
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1480.207 ; gain = 35.684
+catch { config_ip_cache -export [get_ips -all mini_UAL_xup_xor2_0_0] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_xup_4_to_1_mux_vector_0_0] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_ATAD_SPLIT_5_0_0] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_ATAD_SPLIT_5_0_1] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_MIROIR_5B_0_0] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_DIV_4_5B_0_0] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_full_add_4B_0_0] }
+export_ip_user_files -of_objects [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}}]
+launch_runs -jobs 4 {mini_UAL_xup_xor2_0_0_synth_1 mini_UAL_xup_4_to_1_mux_vector_0_0_synth_1 mini_UAL_ATAD_SPLIT_5_0_0_synth_1 mini_UAL_ATAD_SPLIT_5_0_1_synth_1 mini_UAL_MIROIR_5B_0_0_synth_1 mini_UAL_DIV_4_5B_0_0_synth_1 mini_UAL_full_add_4B_0_0_synth_1}
+[Tue Oct  8 15:56:21 2019] Launched mini_UAL_xup_xor2_0_0_synth_1, mini_UAL_xup_4_to_1_mux_vector_0_0_synth_1, mini_UAL_ATAD_SPLIT_5_0_0_synth_1, mini_UAL_ATAD_SPLIT_5_0_1_synth_1, mini_UAL_MIROIR_5B_0_0_synth_1, mini_UAL_DIV_4_5B_0_0_synth_1, mini_UAL_full_add_4B_0_0_synth_1...
+Run output will be captured here:
+mini_UAL_xup_xor2_0_0_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_xup_xor2_0_0_synth_1/runme.log
+mini_UAL_xup_4_to_1_mux_vector_0_0_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_xup_4_to_1_mux_vector_0_0_synth_1/runme.log
+mini_UAL_ATAD_SPLIT_5_0_0_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_ATAD_SPLIT_5_0_0_synth_1/runme.log
+mini_UAL_ATAD_SPLIT_5_0_1_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_ATAD_SPLIT_5_0_1_synth_1/runme.log
+mini_UAL_MIROIR_5B_0_0_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_MIROIR_5B_0_0_synth_1/runme.log
+mini_UAL_DIV_4_5B_0_0_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+mini_UAL_full_add_4B_0_0_synth_1: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/mini_UAL_full_add_4B_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}}] -directory {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/sim_scripts} -ip_user_files_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files} -ipstatic_source_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new
+file mkdir D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1
+file mkdir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new}
+close [ open {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new/lab2.xdc} w ]
+add_files -fileset constrs_1 {{D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/constrs_1/new/lab2.xdc}}
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'mini_UAL_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mini_UAL_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xup_xor2_0_0/sim/mini_UAL_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_0_0/sim/mini_UAL_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_0_1/sim/mini_UAL_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_2_0/sim/mini_UAL_xlconcat_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xlconcat_2_1/sim/mini_UAL_xlconcat_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xlconcat_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/625c/xup_4_to_1_mux_vector.srcs/sources_1/new/xup_4_to_1_mux_vector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_4_to_1_mux_vector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_xup_4_to_1_mux_vector_0_0/sim/mini_UAL_xup_4_to_1_mux_vector_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_xup_4_to_1_mux_vector_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_0/sim/MIROIR_5B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_1/sim/MIROIR_5B_xup_xor2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_2/sim/MIROIR_5B_xup_xor2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_3/sim/MIROIR_5B_xup_xor2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_4/sim/MIROIR_5B_xup_xor2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/ipshared/3146/xup_nor5.srcs/sources_1/new/xup_nor5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_nor5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_nor5_0_0/sim/MIROIR_5B_xup_nor5_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xlconcat_0_0/sim/MIROIR_5B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_5/sim/MIROIR_5B_xup_xor2_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_nor5_0_1/sim/MIROIR_5B_xup_nor5_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xlconcat_0_1/sim/MIROIR_5B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/522b/sim/MIROIR_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/sim/mini_UAL_MIROIR_5B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_MIROIR_5B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/sim/DIV_4_5B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/sim/DIV_4_5B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/a47a/sim/DIV_4_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/sim/mini_UAL_DIV_4_5B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_DIV_4_5B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xup_xor2_0_0/sim/full_add_4B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xup_xor2_1_0/sim/full_add_4B_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xup_xor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xup_xor2_2_0/sim/full_add_4B_xup_xor2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xup_xor2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xup_xor2_3_0/sim/full_add_4B_xup_xor2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xup_xor2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xlconcat_0_0/sim/full_add_4B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/ipshared/f156/xup_nor4.srcs/sources_1/new/xup_nor4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_nor4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xup_nor4_0_0/sim/full_add_4B_xup_nor4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xup_nor4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_xup_xor2_4_0/sim/full_add_4B_xup_xor2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_xup_xor2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/src/full_add_1B_xup_and2_0_0/sim/full_add_1B_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/src/full_add_1B_xup_and2_1_0/sim/full_add_1B_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/src/full_add_1B_xup_and2_2_0/sim/full_add_1B_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/src/full_add_1B_xup_or3_0_0/sim/full_add_1B_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B_xup_or3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/src/full_add_1B_xup_xor2_0_0/sim/full_add_1B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/src/full_add_1B_xup_xor2_1_0/sim/full_add_1B_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B_xup_xor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/ipshared/a186/sim/full_add_1B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_1B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_0/sim/full_add_4B_full_add_1B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_full_add_1B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_0_1/sim/full_add_4B_full_add_1B_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_full_add_1B_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_1_0/sim/full_add_4B_full_add_1B_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_full_add_1B_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_full_add_1B_1_1/sim/full_add_4B_full_add_1B_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B_full_add_1B_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/d13a/sim/full_add_4B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_add_4B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/sim/mini_UAL_full_add_4B_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_full_add_4B_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/sim/mini_UAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mini_UAL_wrapper
+"xvhdl --incr --relax -prj mini_UAL_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_ATAD_SPLIT_4_0_0/sim/full_add_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_add_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_add_4B_0_0/src/full_add_4B_ATAD_SPLIT_4_1_0/sim/full_add_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_add_4B_ATAD_SPLIT_4_1_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1498.785 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mini_UAL_wrapper_behav xil_defaultlib.mini_UAL_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_5 [atad_split_5_default]
+Compiling architecture mini_ual_atad_split_5_0_0_arch of entity xil_defaultlib.mini_UAL_ATAD_SPLIT_5_0_0 [mini_ual_atad_split_5_0_0_defaul...]
+Compiling architecture mini_ual_atad_split_5_0_1_arch of entity xil_defaultlib.mini_UAL_ATAD_SPLIT_5_0_1 [mini_ual_atad_split_5_0_1_defaul...]
+Compiling architecture div_4_5b_atad_split_5_0_0_arch of entity xil_defaultlib.DIV_4_5B_ATAD_SPLIT_5_0_0 [div_4_5b_atad_split_5_0_0_defaul...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.DIV_4_5B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.DIV_4_5B_xup_xor2_0_0
+Compiling module xil_defaultlib.DIV_4_5B
+Compiling module xil_defaultlib.mini_UAL_DIV_4_5B_0_0
+Compiling architecture miroir_5b_atad_split_5_0_2_arch of entity xil_defaultlib.MIROIR_5B_ATAD_SPLIT_5_0_2 [miroir_5b_atad_split_5_0_2_defau...]
+Compiling architecture miroir_5b_atad_split_5_1_0_arch of entity xil_defaultlib.MIROIR_5B_ATAD_SPLIT_5_1_0 [miroir_5b_atad_split_5_1_0_defau...]
+Compiling module xil_defaultlib.MIROIR_5B_xlconcat_0_1
+Compiling module xil_defaultlib.xup_nor5
+Compiling module xil_defaultlib.MIROIR_5B_xup_nor5_0_1
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_5
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_1
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_2
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_3
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_4
+Compiling module xil_defaultlib.MIROIR_5B
+Compiling module xil_defaultlib.mini_UAL_MIROIR_5B_0_0
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture full_add_4b_atad_split_4_0_0_arch of entity xil_defaultlib.full_add_4B_ATAD_SPLIT_4_0_0 [full_add_4b_atad_split_4_0_0_def...]
+Compiling architecture full_add_4b_atad_split_4_1_0_arch of entity xil_defaultlib.full_add_4B_ATAD_SPLIT_4_1_0 [full_add_4b_atad_split_4_1_0_def...]
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.full_add_1B_xup_and2_0_0
+Compiling module xil_defaultlib.full_add_1B_xup_and2_1_0
+Compiling module xil_defaultlib.full_add_1B_xup_and2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.full_add_1B_xup_or3_0_0
+Compiling module xil_defaultlib.full_add_1B_xup_xor2_0_0
+Compiling module xil_defaultlib.full_add_1B_xup_xor2_1_0
+Compiling module xil_defaultlib.full_add_1B
+Compiling module xil_defaultlib.full_add_4B_full_add_1B_0_0
+Compiling module xil_defaultlib.full_add_4B_full_add_1B_0_1
+Compiling module xil_defaultlib.full_add_4B_full_add_1B_1_0
+Compiling module xil_defaultlib.full_add_4B_full_add_1B_1_1
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.full_add_4B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor4
+Compiling module xil_defaultlib.full_add_4B_xup_nor4_0_0
+Compiling module xil_defaultlib.full_add_4B_xup_xor2_0_0
+Compiling module xil_defaultlib.full_add_4B_xup_xor2_1_0
+Compiling module xil_defaultlib.full_add_4B_xup_xor2_2_0
+Compiling module xil_defaultlib.full_add_4B_xup_xor2_3_0
+Compiling module xil_defaultlib.full_add_4B_xup_xor2_4_0
+Compiling module xil_defaultlib.full_add_4B
+Compiling module xil_defaultlib.mini_UAL_full_add_4B_0_0
+Compiling module xil_defaultlib.mini_UAL_xlconcat_0_0
+Compiling module xil_defaultlib.mini_UAL_xlconcat_0_1
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat_default
+Compiling module xil_defaultlib.mini_UAL_xlconcat_2_0
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(IN0_WID...
+Compiling module xil_defaultlib.mini_UAL_xlconcat_2_1
+Compiling module xil_defaultlib.xup_4_to_1_mux_vector(SIZE=5)
+Compiling module xil_defaultlib.mini_UAL_xup_4_to_1_mux_vector_0...
+Compiling module xil_defaultlib.mini_UAL_xup_xor2_0_0
+Compiling module xil_defaultlib.mini_UAL
+Compiling module xil_defaultlib.mini_UAL_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mini_UAL_wrapper_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/Users/Nathan/Professionnal -notrace
+couldn't read file "D:/Users/Nathan/Professionnal": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Oct  8 16:00:24 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1498.785 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mini_UAL_wrapper_behav -key {Behavioral:sim_1:Functional:mini_UAL_wrapper} -tclbatch {mini_UAL_wrapper.tcl} -protoinst "protoinst_files/DIV_4_5B.protoinst" -protoinst "protoinst_files/MIROIR_5B.protoinst" -protoinst "protoinst_files/mini_UAL.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_5B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MIROIR_5B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/mini_UAL.protoinst
+Time resolution is 1 ps
+source mini_UAL_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mini_UAL_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1517.117 ; gain = 18.332
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/MIROIR_5B.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_1
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_2
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_3
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_4
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_1
+Adding component instance block -- xilinx.com:xup:xup_nor5:1.0 - xup_nor5_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Successfully read diagram <MIROIR_5B> from BD file <D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/MIROIR_5B.bd>
+set_property top MIROIR_5B_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+boost::filesystem::remove: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+boost::filesystem::remove: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'MIROIR_5B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MIROIR_5B_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_1/sim/MIROIR_5B_xup_xor2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_2/sim/MIROIR_5B_xup_xor2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_3/sim/MIROIR_5B_xup_xor2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_4/sim/MIROIR_5B_xup_xor2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.ip_user_files/bd/MIROIR_5B/sim/MIROIR_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_5/sim/MIROIR_5B_xup_xor2_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_xor2_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ipshared/3146/xup_nor5.srcs/sources_1/new/xup_nor5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_nor5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_nor5_0_1/sim/MIROIR_5B_xup_nor5_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xup_nor5_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xlconcat_0_1/sim/MIROIR_5B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/hdl/MIROIR_5B_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIROIR_5B_wrapper
+"xvhdl --incr --relax -prj MIROIR_5B_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ipshared/36fb/sim/ATAD_SPLIT_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_5'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_ATAD_SPLIT_5_0_2/sim/MIROIR_5B_ATAD_SPLIT_5_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_ATAD_SPLIT_5_1_0/sim/MIROIR_5B_ATAD_SPLIT_5_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_1_0'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MIROIR_5B_wrapper_behav xil_defaultlib.MIROIR_5B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MIROIR_5B_wrapper_behav xil_defaultlib.MIROIR_5B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_5 [atad_split_5_default]
+Compiling architecture miroir_5b_atad_split_5_0_0_arch of entity xil_defaultlib.MIROIR_5B_ATAD_SPLIT_5_0_0 [miroir_5b_atad_split_5_0_0_defau...]
+Compiling architecture miroir_5b_atad_split_5_0_1_arch of entity xil_defaultlib.MIROIR_5B_ATAD_SPLIT_5_0_1 [miroir_5b_atad_split_5_0_1_defau...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.MIROIR_5B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor5
+Compiling module xil_defaultlib.MIROIR_5B_xup_nor5_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_0
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_1
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_2
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_3
+Compiling module xil_defaultlib.MIROIR_5B_xup_xor2_0_4
+Compiling module xil_defaultlib.MIROIR_5B
+Compiling module xil_defaultlib.MIROIR_5B_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MIROIR_5B_wrapper_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/Users/Nathan/Professionnal -notrace
+couldn't read file "D:/Users/Nathan/Professionnal": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Oct  8 16:04:48 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MIROIR_5B_wrapper_behav -key {Behavioral:sim_1:Functional:MIROIR_5B_wrapper} -tclbatch {MIROIR_5B_wrapper.tcl} -protoinst "protoinst_files/DIV_4_5B.protoinst" -protoinst "protoinst_files/MIROIR_5B.protoinst" -protoinst "protoinst_files/mini_UAL.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_5B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/DIV_4_5B.protoinst for the following reason(s):
+There are no instances of module "DIV_4_5B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MIROIR_5B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/mini_UAL.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/mini_UAL.protoinst for the following reason(s):
+There are no instances of module "mini_UAL" in the design.
+
+Time resolution is 1 ps
+source MIROIR_5B_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MIROIR_5B_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1786.379 ; gain = 92.797
+add_force {/MIROIR_5B_wrapper/A} -radix bin {01101 0ns}
+add_force {/MIROIR_5B_wrapper/B} -radix bin {10110 0ns}
+run 10 us
+add_force {/MIROIR_5B_wrapper/A} -radix hex {16 0ns}
+run 10 us
+add_force {/MIROIR_5B_wrapper/A} -radix hex {0 0ns}
+add_force {/MIROIR_5B_wrapper/B} -radix hex {0 0ns}
+run 10 us
+open_bd_design {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+launch_runs synth_1 -jobs 4
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DIV_4_5B_ATAD_SPLIT_5_0_0, cache-ID = 6921ff1e83789446; cache size = 0.266 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DIV_4_5B_xup_xor2_0_0, cache-ID = 7b9216e3c89947e4; cache size = 0.266 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DIV_4_5B_ATAD_SPLIT_5_0_0, cache-ID = 6921ff1e83789446; cache size = 0.266 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DIV_4_5B_xup_xor2_0_0, cache-ID = 7b9216e3c89947e4; cache size = 0.266 MB.
+[Tue Oct  8 16:36:40 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Oct  8 16:37:26 2019] Launched impl_1...
+Run output will be captured here: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top mini_UAL_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+reset_run impl_1 -prev_step 
+launch_simulation
+boost::filesystem::remove: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/simulate.log"
+current_bd_design [get_bd_designs MIROIR_5B]
+close_bd_design [get_bd_designs MIROIR_5B]
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+WARNING: [Vivado 12-3661] Failed to remove file:D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/MIROIR_5B_wrapper_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/xelab.pb
+WARNING: [Vivado 12-3661] Failed to remove file:D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/MIROIR_5B_wrapper_behav/xsim.xdbg
+WARNING: [Vivado 12-4421] Failed to remove directory:D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/MIROIR_5B_wrapper_behav
+WARNING: [Vivado 12-4421] Failed to remove directory:D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+boost::filesystem::remove: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_2/project_2.sim/sim_1/behav/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  8 16:39:27 2019...

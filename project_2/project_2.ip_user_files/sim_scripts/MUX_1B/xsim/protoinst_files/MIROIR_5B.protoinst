@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"MIROIR_5B": {
+			"proto_instances": {
+			}
+		}
+	}
+}

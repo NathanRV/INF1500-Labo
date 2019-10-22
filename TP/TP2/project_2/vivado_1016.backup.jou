@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 21 13:31:42 2019
+# Process ID: 1016
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16600 D:\Users\Nathan\Documents\INF1500\Labo\TP\project_2\project_2.xpr
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/vivado.log
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd}
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+current_bd_design [get_bd_designs MUX_5B]
+set_property location {-47 1024} [get_bd_ports R1R0]
+set_property location {1 92 1021} [get_bd_cells ATAD_SPLIT_2_0]
+set_property location {-18 868} [get_bd_ports MIROIR]
+save_bd_design
+ipx::package_project -root_dir D:/Users/Nathan/Documents/INF1500/Labo/ip_repo/MUX_5B -vendor xilinx.com -library user -taxonomy /UserIP -module MUX_5B -import_files -force
+ipx::remove_file sim/MUX_5B.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+update_ip_catalog -rebuild -repo_path d:/Users/Nathan/Documents/INF1500/Labo/ip_repo
+ipx::unload_core d:/Users/Nathan/Documents/INF1500/Labo/ip_repo/MUX_5B/component.xml
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:MUX_5B:1.0 [get_ips  mini_UAL_MUX_5B_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips mini_UAL_MUX_5B_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd]
+catch { config_ip_cache -export [get_ips -all mini_UAL_full_adder_4B_0_0] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_DIV_4_5B_0_0] }
+catch { [ delete_ip_run [get_ips -all mini_UAL_DIV_4_5B_0_0] ] }
+catch { config_ip_cache -export [get_ips -all mini_UAL_MUX_5B_0_0] }
+export_ip_user_files -of_objects [get_files D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd]
+launch_runs -jobs 4 {mini_UAL_DIV_4_5B_0_0_synth_1 mini_UAL_full_adder_4B_0_0_synth_1 mini_UAL_MUX_5B_0_0_synth_1}
+export_simulation -of_objects [get_files D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd] -directory D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.ip_user_files/sim_scripts -ip_user_files_dir D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.ip_user_files -ipstatic_source_dir D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+launch_simulation
+source mini_UAL_wrapper.tcl
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/TP/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd}
+close_sim

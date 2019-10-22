@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.ip_user_files/bd/full_add_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../../project_1.ip_user_files/bd/full_add_4B/ip/full_add_4B_ATAD_SPLIT_4_0_0/sim/full_add_4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../../project_1.ip_user_files/bd/full_add_4B/ip/full_add_4B_ATAD_SPLIT_4_1_1/sim/full_add_4B_ATAD_SPLIT_4_1_1.vhd" \
+
+# Do not sort compile order
+nosort

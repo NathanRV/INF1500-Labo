@@ -1,0 +1,240 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 21 14:08:36 2019
+# Process ID: 11096
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15420 D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.xpr
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/project_2/vivado.log
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+generate_target synthesis
+generate_target -help
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run mini_UAL_MUX_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_project
+open_project D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.xpr
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+validate_bd_design
+update_compile_order -fileset sources_1
+save_bd_design
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run mini_UAL_MUX_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+generate_target synthesis mini_UAL.bd
+validate_bd_design -force
+generate_target all [get_files mini_UAL.bd]
+launch_runs
+launch_runs -help
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run mini_UAL_MUX_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+validate_bd_design -force
+generate_target all [get_files mini_UAL.bd]
+launch_runs synth_1 -jobs 4
+set_property top MUX_5B_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd}
+report_ip_status -name ip_status 
+export_ip_user_files -of_objects  [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+file delete -force D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+set_property top MUX_1B_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+generate_target Simulation [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd]
+export_ip_user_files -of_objects [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd] -directory D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/sim_scripts -ip_user_files_dir D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files -ipstatic_source_dir D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source MUX_1B_wrapper.tcl
+close_sim
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd}
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_0_VOUT1] [get_bd_nets ATAD_SPLIT_5_1_VOUT8] [get_bd_nets ATAD_SPLIT_5_1_VOUT1] [get_bd_nets ATAD_SPLIT_5_2_VOUT1] [get_bd_nets MUX_1B_1_S] [get_bd_cells MUX_1B_1]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_0_VOUT0] [get_bd_nets ATAD_SPLIT_5_1_VOUT9] [get_bd_nets ATAD_SPLIT_5_1_VOUT0] [get_bd_nets ATAD_SPLIT_5_2_VOUT0] [get_bd_nets MUX_1B_0_S] [get_bd_cells MUX_1B_0]
+export_ip_user_files -of_objects  [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd] -no_script -reset -force -quiet
+remove_files  D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd
+file delete -force D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B
+create_bd_design "MUX_5B"
+update_compile_order -fileset sources_1
+create_bd_port -dir I -from 4 -to 0 ADD
+copy_bd_objs /  [get_bd_ports {ADD}]
+copy_bd_objs /  [get_bd_ports {ADD}]
+copy_bd_objs /  [get_bd_ports {ADD}]
+set_property name SOUS [get_bd_ports ADD1]
+set_property name DIV [get_bd_ports ADD2]
+set_property name MIROIR [get_bd_ports ADD3]
+create_bd_port -dir I -from 1 -to 0 R1R0
+create_bd_port -dir O -from 4 -to 0 S
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX_1B:1.0 MUX_1B_0
+endgroup
+copy_bd_objs /  [get_bd_cells {MUX_1B_0}]
+copy_bd_objs /  [get_bd_cells {MUX_1B_0}]
+copy_bd_objs /  [get_bd_cells {MUX_1B_0}]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ATAD_SPLIT_5:1.0 ATAD_SPLIT_5_0
+endgroup
+copy_bd_objs /  [get_bd_cells {ATAD_SPLIT_5_0}]
+copy_bd_objs /  [get_bd_cells {ATAD_SPLIT_5_0}]
+copy_bd_objs /  [get_bd_cells {ATAD_SPLIT_5_0}]
+connect_bd_net [get_bd_ports ADD] [get_bd_pins ATAD_SPLIT_5_0/VIN]
+connect_bd_net [get_bd_ports SOUS] [get_bd_pins ATAD_SPLIT_5_1/VIN]
+connect_bd_net [get_bd_ports DIV] [get_bd_pins ATAD_SPLIT_5_2/VIN]
+connect_bd_net [get_bd_ports MIROIR] [get_bd_pins ATAD_SPLIT_5_3/VIN]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT0] [get_bd_pins MUX_1B_0/A0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT1] [get_bd_pins MUX_1B_1/A1]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_0_VOUT1]
+connect_bd_net [get_bd_pins MUX_1B_1/A0] [get_bd_pins ATAD_SPLIT_5_0/VOUT1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT2] [get_bd_pins MUX_1B_2/A0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT3] [get_bd_pins MUX_1B_3/A0]
+copy_bd_objs /  [get_bd_cells {MUX_1B_3}]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT4] [get_bd_pins MUX_1B_4/A0]
+regenerate_bd_layout
+undo
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT0] [get_bd_pins MUX_1B_0/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT1] [get_bd_pins MUX_1B_1/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT2] [get_bd_pins MUX_1B_2/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT3] [get_bd_pins MUX_1B_3/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT4] [get_bd_pins MUX_1B_4/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT0] [get_bd_pins MUX_1B_0/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT1] [get_bd_pins MUX_1B_1/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT2] [get_bd_pins MUX_1B_2/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT3] [get_bd_pins MUX_1B_3/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT4] [get_bd_pins MUX_1B_4/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT0] [get_bd_pins MUX_1B_0/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT1] [get_bd_pins MUX_1B_1/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT2] [get_bd_pins MUX_1B_2/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT3] [get_bd_pins MUX_1B_3/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT4] [get_bd_pins MUX_1B_4/A3]
+set_property -dict [list CONFIG.NUM_PORTS {5}] [get_bd_cells xlconcat_0]
+connect_bd_net [get_bd_ports S] [get_bd_pins xlconcat_0/dout]
+connect_bd_net [get_bd_pins MUX_1B_0/S] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins MUX_1B_1/S] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins MUX_1B_2/S] [get_bd_pins xlconcat_0/In2]
+connect_bd_net [get_bd_pins MUX_1B_3/S] [get_bd_pins xlconcat_0/In3]
+connect_bd_net [get_bd_pins MUX_1B_4/S] [get_bd_pins xlconcat_0/In4]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ATAD_SPLIT_2:1.0 ATAD_SPLIT_2_0
+endgroup
+connect_bd_net [get_bd_ports R1R0] [get_bd_pins ATAD_SPLIT_2_0/VIN]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_0/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_0/R1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_1/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_2/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_3/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_4/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_1/R1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_3/R1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_2/R1]
+connect_bd_net [get_bd_pins MUX_1B_4/R1] [get_bd_pins ATAD_SPLIT_5_1/VOUT2]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_1_VOUT2]
+connect_bd_net [get_bd_pins MUX_1B_4/R1] [get_bd_pins ATAD_SPLIT_2_0/VOUT1]
+connect_bd_net [get_bd_pins MUX_1B_2/A1] [get_bd_pins ATAD_SPLIT_5_1/VOUT2]
+regenerate_bd_layout
+validate_bd_design
+make_wrapper -files [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd] -top
+add_files -norecurse D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/Users/Nathan/Documents/INF1500/Labo/ip_repo/MUX_5B -vendor xilinx.com -library user -taxonomy /UserIP -module MUX_5B -import_files -force
+ipx::remove_file sim/MUX_5B.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+update_ip_catalog -rebuild -repo_path d:/Users/Nathan/Documents/INF1500/Labo/ip_repo
+ipx::unload_core d:/Users/Nathan/Documents/INF1500/Labo/ip_repo/MUX_5B/component.xml
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:MUX_5B:1.0 [get_ips  mini_UAL_MUX_5B_0_0] -log ip_upgrade.log
+upgrade_ip -vlnv xilinx.com:user:MUX_5B:1.0 [get_ips  mini_UAL_MUX_5B_0_0] -log ip_upgrade.log
+current_bd_design [get_bd_designs MUX_5B]
+current_bd_design [get_bd_designs mini_UAL]
+delete_bd_objs [get_bd_nets xlconcat_3_dout] [get_bd_nets DIV_4_5B_0_S] [get_bd_nets MIROIR_5B_0_S] [get_bd_nets xlconcat_2_dout] [get_bd_nets MUX_5B_0_S] [get_bd_nets xlconcat_4_dout] [get_bd_cells MUX_5B_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX_5B:1.0 MUX_5B_0
+endgroup
+set_property location {6.5 1221 483} [get_bd_cells MUX_5B_0]
+connect_bd_net [get_bd_ports S] [get_bd_pins MUX_5B_0/S]
+connect_bd_net [get_bd_pins MIROIR_5B_0/S] [get_bd_pins MUX_5B_0/MIROIR]
+connect_bd_net [get_bd_pins MUX_5B_0/DIV] [get_bd_pins DIV_4_5B_0/S]
+undo
+undo
+undo
+undo
+undo
+undo
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX_5B:1.0 MUX_5B_1
+endgroup
+set_property location {7 1204 304} [get_bd_cells MUX_5B_1]
+delete_bd_objs [get_bd_nets xlconcat_3_dout]
+connect_bd_net [get_bd_pins xlconcat_3/dout] [get_bd_pins MUX_5B_1/ADD]
+delete_bd_objs [get_bd_nets xlconcat_4_dout]
+connect_bd_net [get_bd_pins xlconcat_4/dout] [get_bd_pins MUX_5B_1/SOUS]
+delete_bd_objs [get_bd_nets xlconcat_2_dout]
+connect_bd_net [get_bd_pins xlconcat_2/dout] [get_bd_pins MUX_5B_1/R1R0]
+delete_bd_objs [get_bd_nets DIV_4_5B_0_S] [get_bd_nets MIROIR_5B_0_S] [get_bd_nets MUX_5B_0_S] [get_bd_cells MUX_5B_0]
+connect_bd_net [get_bd_pins MUX_5B_1/DIV] [get_bd_pins DIV_4_5B_0/S]
+connect_bd_net [get_bd_pins MIROIR_5B_0/S] [get_bd_pins MUX_5B_1/MIROIR]
+connect_bd_net [get_bd_ports S] [get_bd_pins MUX_5B_1/S]
+regenerate_bd_layout
+validate_bd_design
+report_ip_status -name ip_status 
+save_bd_design
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+set_property top mini_UAL_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:DIV_4_5B:1.0 DIV_4_5B_1
+endgroup
+set_property location {6 1032 168} [get_bd_cells DIV_4_5B_1]
+delete_bd_objs [get_bd_nets DIV_4_5B_0_S]
+connect_bd_net [get_bd_pins MUX_5B_1/DIV] [get_bd_pins DIV_4_5B_1/S]
+delete_bd_objs [get_bd_cells DIV_4_5B_0]
+connect_bd_net [get_bd_ports A] [get_bd_pins DIV_4_5B_1/A]
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+export_ip_user_files -of_objects  [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+file delete -force D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+make_wrapper -files [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd] -top
+add_files -norecurse D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+update_compile_order -fileset sources_1
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1

@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_1/sim/MIROIR_5B_xup_xor2_0_1.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_2/sim/MIROIR_5B_xup_xor2_0_2.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_3/sim/MIROIR_5B_xup_xor2_0_3.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_4/sim/MIROIR_5B_xup_xor2_0_4.v" \
+"../../../../project_2.ip_user_files/bd/MIROIR_5B/sim/MIROIR_5B.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_xor2_0_5/sim/MIROIR_5B_xup_xor2_0_5.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ipshared/3146/xup_nor5.srcs/sources_1/new/xup_nor5.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_nor5_0_1/sim/MIROIR_5B_xup_nor5_0_1.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xlconcat_0_1/sim/MIROIR_5B_xlconcat_0_1.v" \
+"../../../../project_2.srcs/sources_1/bd/MIROIR_5B/hdl/MIROIR_5B_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,20 @@
+vhdl xil_defaultlib  \
+"../../../bd/mini_UAL/ipshared/36fb/sim/ATAD_SPLIT_5.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_ATAD_SPLIT_5_0_0/sim/mini_UAL_ATAD_SPLIT_5_0_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_ATAD_SPLIT_5_0_1/sim/mini_UAL_ATAD_SPLIT_5_0_1.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_0/sim/MIROIR_5B_ATAD_SPLIT_5_0_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_1/sim/MIROIR_5B_ATAD_SPLIT_5_0_1.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_2/sim/MIROIR_5B_ATAD_SPLIT_5_0_2.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_1_0/sim/MIROIR_5B_ATAD_SPLIT_5_1_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/src/full_adder_4B_ATAD_SPLIT_4_0_0/sim/full_adder_4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/src/full_adder_4B_ATAD_SPLIT_4_0_1/sim/full_adder_4B_ATAD_SPLIT_4_0_1.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_ATAD_SPLIT_5_0_0/sim/DIV_4_5B_ATAD_SPLIT_5_0_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_0/sim/MUX_5B_ATAD_SPLIT_5_0_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_1/sim/MUX_5B_ATAD_SPLIT_5_0_1.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_2/sim/MUX_5B_ATAD_SPLIT_5_0_2.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/ipshared/4947/sim/ATAD_SPLIT_2.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_2_0_0/sim/MUX_5B_ATAD_SPLIT_2_0_0.vhd" \
+"../../../bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_3/sim/MUX_5B_ATAD_SPLIT_5_0_3.vhd" \
+
+nosort

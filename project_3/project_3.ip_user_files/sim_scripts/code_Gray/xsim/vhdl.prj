@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/code_Gray/sim/code_Gray.vhd" \
+
+nosort

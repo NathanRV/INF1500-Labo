@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/sim/MUX_1B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_1B'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/sim/MUX_2_vers_1_4bits_MUX_1B_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_1/sim/MUX_2_vers_1_4bits_MUX_1B_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_1_0/sim/MUX_2_vers_1_4bits_MUX_1B_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_1_1/sim/MUX_2_vers_1_4bits_MUX_1B_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_1_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0/sim/MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0/sim/MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/sim/MUX_2_vers_1_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/hdl/MUX_2_vers_1_4bits_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_wrapper'

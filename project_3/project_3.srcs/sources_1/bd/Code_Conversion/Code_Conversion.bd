@@ -1,0 +1,126 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9BFE65F89BFE65F8",
+      "device": "xc7a100tcsg324-1",
+      "name": "Code_Conversion",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "code_Gray_0": "",
+      "Code_secret_0": "",
+      "MUX_2_vers_1_4bits_0": "",
+      "ATAD_SPLIT_4_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "S": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "R0": {
+        "direction": "I"
+      },
+      "A": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "code_Gray_0": {
+        "vlnv": "xilinx.com:user:code_Gray:1.0",
+        "xci_name": "Code_Conversion_code_Gray_0_0"
+      },
+      "Code_secret_0": {
+        "vlnv": "xilinx.com:user:Code_secret:1.0",
+        "xci_name": "Code_Conversion_Code_secret_0_0"
+      },
+      "MUX_2_vers_1_4bits_0": {
+        "vlnv": "xilinx.com:user:MUX_2_vers_1_4bits:1.0",
+        "xci_name": "Code_Conversion_MUX_2_vers_1_4bits_0_0"
+      },
+      "ATAD_SPLIT_4_0": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_4:1.0",
+        "xci_name": "Code_Conversion_ATAD_SPLIT_4_0_0"
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "Code_Conversion_xlconcat_0_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "3"
+          }
+        }
+      }
+    },
+    "nets": {
+      "code_Gray_0_S": {
+        "ports": [
+          "code_Gray_0/S",
+          "MUX_2_vers_1_4bits_0/Gray"
+        ]
+      },
+      "Code_secret_0_S": {
+        "ports": [
+          "Code_secret_0/S",
+          "MUX_2_vers_1_4bits_0/Secret"
+        ]
+      },
+      "MUX_2_vers_1_4bits_0_S": {
+        "ports": [
+          "MUX_2_vers_1_4bits_0/S",
+          "S"
+        ]
+      },
+      "R0_1": {
+        "ports": [
+          "R0",
+          "MUX_2_vers_1_4bits_0/R0"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "ATAD_SPLIT_4_0/VIN"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT0",
+          "code_Gray_0/E0",
+          "xlconcat_0/In0"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT1",
+          "code_Gray_0/E1",
+          "xlconcat_0/In1"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT2",
+          "code_Gray_0/E2",
+          "xlconcat_0/In2"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT3",
+          "code_Gray_0/E3"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "Code_secret_0/A"
+        ]
+      }
+    }
+  }
+}

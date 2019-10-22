@@ -1,0 +1,41 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ce2e0e73ea8e4541ba08e80a2e0fde5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_5 -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MUX_2_vers_1_4bits_wrapper_behav xil_defaultlib.MUX_2_vers_1_4bits_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture mux_2_vers_1_4bits_atad_split_4_0_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0 [mux_2_vers_1_4bits_atad_split_4_...]
+Compiling architecture mux_2_vers_1_4bits_atad_split_4_1_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0 [mux_2_vers_1_4bits_atad_split_4_...]
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_0
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_1
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_3
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.MUX_1B_xup_inv_0_0
+Compiling module xil_defaultlib.MUX_1B_xup_inv_0_1
+Compiling module xil_defaultlib.xup_or4
+Compiling module xil_defaultlib.MUX_1B_xup_or4_0_0
+Compiling architecture structure of entity xil_defaultlib.MUX_1B [mux_1b_default]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_0_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_0_0 [mux_2_vers_1_4bits_mux_1b_0_0_de...]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_0_1_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_0_1 [mux_2_vers_1_4bits_mux_1b_0_1_de...]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_1_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_1_0 [mux_2_vers_1_4bits_mux_1b_1_0_de...]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_1_1_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_1_1 [mux_2_vers_1_4bits_mux_1b_1_1_de...]
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(dout_wi...
+Compiling module xil_defaultlib.MUX_2_vers_1_4bits_xlconcat_0_0
+Compiling module xlconstant_v1_1_5.xlconstant_v1_1_5_xlconstant(CON...
+Compiling module xil_defaultlib.MUX_2_vers_1_4bits_xlconstant_0_...
+Compiling architecture structure of entity xil_defaultlib.MUX_2_vers_1_4bits [mux_2_vers_1_4bits_default]
+Compiling architecture structure of entity xil_defaultlib.mux_2_vers_1_4bits_wrapper
+Built simulation snapshot MUX_2_vers_1_4bits_wrapper_behav

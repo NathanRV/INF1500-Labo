@@ -1,0 +1,1 @@
+-wto "9c5f19e9b51b428ca48996946564d3d3" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xlconcat_v2_1_3" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "full_adder_4B_wrapper_behav" "xil_defaultlib.full_adder_4B_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

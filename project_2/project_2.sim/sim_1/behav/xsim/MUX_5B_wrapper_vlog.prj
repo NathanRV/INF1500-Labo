@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_0_0/sim/MUX_1B_xup_and3_0_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_1_0/sim/MUX_1B_xup_and3_1_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_2_0/sim/MUX_1B_xup_and3_2_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_3_0/sim/MUX_1B_xup_and3_3_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/ipshared/1eaf/xup_or4.srcs/sources_1/new/xup_or4.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_or4_0_0/sim/MUX_1B_xup_or4_0_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_inv_0_0/sim/MUX_1B_xup_inv_0_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_inv_1_0/sim/MUX_1B_xup_inv_1_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ipshared/7fab/sim/MUX_1B.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/sim/MUX_5B_MUX_1B_0_1.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/sim/MUX_5B.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_5/sim/MUX_5B_MUX_1B_0_5.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_2_0/sim/MUX_5B_MUX_1B_2_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_3_0/sim/MUX_5B_MUX_1B_3_0.v" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_4_0/sim/MUX_5B_MUX_1B_4_0.v" \
+
+verilog xlconcat_v2_1_3  \
+"../../../../project_2.srcs/sources_1/bd/MUX_5B/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v" \
+
+verilog xil_defaultlib  \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_xlconcat_0_1/sim/MUX_5B_xlconcat_0_1.v" \
+"../../../../project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

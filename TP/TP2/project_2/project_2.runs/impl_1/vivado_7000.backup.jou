@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 21 15:02:55 2019
+# Process ID: 7000
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/impl_1
+# Command line: vivado.exe -log MIROIR_5B_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MIROIR_5B_wrapper.tcl -notrace
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/impl_1/MIROIR_5B_wrapper.vdi
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MIROIR_5B_wrapper.tcl -notrace

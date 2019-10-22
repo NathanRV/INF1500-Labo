@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 21 14:09:37 2019
+# Process ID: 16440
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MIROIR_5B_0_0_synth_1
+# Command line: vivado.exe -log mini_UAL_MIROIR_5B_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mini_UAL_MIROIR_5B_0_0.tcl
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MIROIR_5B_0_0_synth_1/mini_UAL_MIROIR_5B_0_0.vds
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MIROIR_5B_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mini_UAL_MIROIR_5B_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Documents/INF1500/Labo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mini_UAL_MIROIR_5B_0_0, cache-ID = 524a45bc1c95c842.
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 21 14:09:43 2019...

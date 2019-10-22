@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.ip_user_files/bd/full_adder_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.ip_user_files/bd/full_adder_4B/ip/full_adder_4B_ATAD_SPLIT_4_0_0/sim/full_adder_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.ip_user_files/bd/full_adder_4B/ip/full_adder_4B_ATAD_SPLIT_4_0_1/sim/full_adder_4B_ATAD_SPLIT_4_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_4B_ATAD_SPLIT_4_0_1'

@@ -1,0 +1,38 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ipshared/36fb/sim/ATAD_SPLIT_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_5'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_ATAD_SPLIT_5_0_0/sim/mini_UAL_ATAD_SPLIT_5_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mini_UAL_ATAD_SPLIT_5_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_ATAD_SPLIT_5_0_1/sim/mini_UAL_ATAD_SPLIT_5_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mini_UAL_ATAD_SPLIT_5_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_1/MIROIR_5B_xup_xor2_0_1_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_xup_xor2_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_2/MIROIR_5B_xup_xor2_0_2_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_xup_xor2_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_3/MIROIR_5B_xup_xor2_0_3_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_xup_xor2_0_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_4/MIROIR_5B_xup_xor2_0_4_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_xup_xor2_0_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_0/sim/MIROIR_5B_ATAD_SPLIT_5_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_1/sim/MIROIR_5B_ATAD_SPLIT_5_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_xup_xor2_0_5/MIROIR_5B_xup_xor2_0_5_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_xup_xor2_0_5'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_2/sim/MIROIR_5B_ATAD_SPLIT_5_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_2/MIROIR_5B_ATAD_SPLIT_5_0_2_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_0_2'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'miroir_5b_atad_split_5_0_2' [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_0_2/MIROIR_5B_ATAD_SPLIT_5_0_2_sim_netlist.vhdl:17]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_1_0/sim/MIROIR_5B_ATAD_SPLIT_5_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_1_0/MIROIR_5B_ATAD_SPLIT_5_1_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIROIR_5B_ATAD_SPLIT_5_1_0'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'miroir_5b_atad_split_5_1_0' [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_MIROIR_5B_0_0/src/MIROIR_5B_ATAD_SPLIT_5_1_0/MIROIR_5B_ATAD_SPLIT_5_1_0_sim_netlist.vhdl:17]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/src/full_adder_4B_ATAD_SPLIT_4_0_0/sim/full_adder_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/src/full_adder_4B_ATAD_SPLIT_4_0_1/sim/full_adder_4B_ATAD_SPLIT_4_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_4B_ATAD_SPLIT_4_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_1_0/src/DIV_4_5B_ATAD_SPLIT_5_0_0/sim/DIV_4_5B_ATAD_SPLIT_5_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_5B_ATAD_SPLIT_5_0_0'

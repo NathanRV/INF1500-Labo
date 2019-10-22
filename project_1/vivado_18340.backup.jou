@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct  8 15:04:56 2019
+# Process ID: 18340
+# Current directory: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9552 D:\Users\Nathan\Professionnal Drive\Universite\Cours\INF1500\Labo\TP\project_1\project_1.xpr
+# Log file: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/vivado.log
+# Journal file: D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/TP/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir {D:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo} -vendor xilinx.com -library user -taxonomy /UserIP -module one_bit_full_adder -import_files
+ipx::remove_file sim/one_bit_full_adder.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:one_bit_full_adder:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:one_bit_full_adder:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:one_bit_full_adder:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:one_bit_full_adder:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:one_bit_full_adder:1.0]
+set_property  ip_repo_paths  {{d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/ATAD_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/DIV__5B_4} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/MIROIR_5B} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/XUP_LIB} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/four_bit_full_adder} {d:/Users/Nathan/Professionnal Drive/Universite/Cours/INF1500/Labo/ip_repo/one_bit_full_adder}} [current_project]
+update_ip_catalog

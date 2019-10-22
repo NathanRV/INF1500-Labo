@@ -1,0 +1,43 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c5f19e9b51b428ca48996946564d3d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot full_adder_4B_wrapper_behav xil_defaultlib.full_adder_4B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture full_adder_4b_atad_split_4_0_0_arch of entity xil_defaultlib.full_adder_4B_ATAD_SPLIT_4_0_0 [full_adder_4b_atad_split_4_0_0_d...]
+Compiling architecture full_adder_4b_atad_split_4_0_1_arch of entity xil_defaultlib.full_adder_4B_ATAD_SPLIT_4_0_1 [full_adder_4b_atad_split_4_0_1_d...]
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.full_add_1B_xup_and2_0_2
+Compiling module xil_defaultlib.full_add_1B_xup_and2_1_1
+Compiling module xil_defaultlib.full_add_1B_xup_and2_2_1
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.full_add_1B_xup_or3_0_1
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.full_add_1B_xup_xor2_0_1
+Compiling module xil_defaultlib.full_add_1B_xup_xor2_1_1
+Compiling module xil_defaultlib.full_add_1B
+Compiling module xil_defaultlib.full_adder_4B_full_add_1B_0_0
+Compiling module xil_defaultlib.full_adder_4B_full_add_1B_1_0
+Compiling module xil_defaultlib.full_adder_4B_full_add_1B_1_1
+Compiling module xil_defaultlib.full_adder_4B_full_add_1B_1_2
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.full_adder_4B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor4
+Compiling module xil_defaultlib.full_adder_4B_xup_nor4_0_0
+Compiling module xil_defaultlib.full_adder_4B_xup_xor2_0_0
+Compiling module xil_defaultlib.full_adder_4B_xup_xor2_0_1
+Compiling module xil_defaultlib.full_adder_4B_xup_xor2_0_2
+Compiling module xil_defaultlib.full_adder_4B_xup_xor2_0_3
+Compiling module xil_defaultlib.full_adder_4B_xup_xor2_4_0
+Compiling module xil_defaultlib.full_adder_4B
+Compiling module xil_defaultlib.full_adder_4B_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot full_adder_4B_wrapper_behav

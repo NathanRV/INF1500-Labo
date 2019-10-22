@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="full_add_4B_full_add_1B_0_0_synth_1" LaunchDir="D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.runs/full_add_4B_full_add_1B_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="full_add_4B_full_add_1B_0_1_synth_1" LaunchDir="D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.runs/full_add_4B_full_add_1B_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="full_add_4B_full_add_1B_1_0_synth_1" LaunchDir="D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.runs/full_add_4B_full_add_1B_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="full_add_4B_full_add_1B_0_1_synth_1"/>
+	</Run>
+	<Run Id="full_add_4B_full_add_1B_1_1_synth_1" LaunchDir="D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.runs/full_add_4B_full_add_1B_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="full_add_4B_full_add_1B_0_1_synth_1"/>
+	</Run>
+	<Run Id="full_add_4B_full_add_1B_0_2_synth_1" LaunchDir="D:/Users/Nathan/Professional/Universite/Cours/INF1500/Labo/TP/project_1/project_1.runs/full_add_4B_full_add_1B_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="full_add_4B_full_add_1B_0_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

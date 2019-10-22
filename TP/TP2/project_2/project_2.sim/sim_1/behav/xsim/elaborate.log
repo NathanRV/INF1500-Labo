@@ -1,0 +1,23 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MUX_1B_wrapper_behav xil_defaultlib.MUX_1B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_1_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_2_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_3_2
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.MUX_1B_xup_inv_0_2
+Compiling module xil_defaultlib.MUX_1B_xup_inv_1_2
+Compiling module xil_defaultlib.xup_or4
+Compiling module xil_defaultlib.MUX_1B_xup_or4_0_2
+Compiling module xil_defaultlib.MUX_1B
+Compiling module xil_defaultlib.MUX_1B_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MUX_1B_wrapper_behav

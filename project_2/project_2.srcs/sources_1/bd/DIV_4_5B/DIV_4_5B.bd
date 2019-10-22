@@ -1,0 +1,100 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF57A5014359BB59A",
+      "device": "xc7a100tcsg324-1",
+      "name": "DIV_4_5B",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_xor2_0": "",
+      "ATAD_SPLIT_5_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "S": {
+        "direction": "O",
+        "left": "4",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "5",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "DIV_4_5B_xup_xor2_0_1"
+      },
+      "ATAD_SPLIT_5_0": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_5:1.0",
+        "xci_name": "DIV_4_5B_ATAD_SPLIT_5_0_1"
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "DIV_4_5B_xlconcat_0_1",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "ATAD_SPLIT_5_0/VIN"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT0",
+          "xup_xor2_0/b",
+          "xup_xor2_0/a"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "xlconcat_0/In4",
+          "xlconcat_0/In3"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "S"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT2",
+          "xlconcat_0/In0"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT3",
+          "xlconcat_0/In1"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT4": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT4",
+          "xlconcat_0/In2"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/Code_secret/ipshared/8559/sim/ATAD_SPLIT_3.vhd" \
+"../../../bd/Code_secret/ip/Code_secret_ATAD_SPLIT_3_0_0/sim/Code_secret_ATAD_SPLIT_3_0_0.vhd" \
+"../../../bd/Code_secret/sim/Code_secret.vhd" \
+
+nosort

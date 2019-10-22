@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ipshared/36fb/sim/ATAD_SPLIT_5.vhd" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_0_4/sim/MUX_5B_ATAD_SPLIT_5_0_4.vhd" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_2_0/sim/MUX_5B_ATAD_SPLIT_5_2_0.vhd" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_3_0/sim/MUX_5B_ATAD_SPLIT_5_3_0.vhd" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ipshared/4947/sim/ATAD_SPLIT_2.vhd" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_2_0_1/sim/MUX_5B_ATAD_SPLIT_2_0_1.vhd" \
+"../../../../project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_1_0/sim/MUX_5B_ATAD_SPLIT_5_1_0.vhd" \
+
+# Do not sort compile order
+nosort

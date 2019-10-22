@@ -1,0 +1,321 @@
+
+*** Running vivado
+    with args -log MUX_2_vers_1_4bits_MUX_1B_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX_2_vers_1_4bits_MUX_1B_0_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MUX_2_vers_1_4bits_MUX_1B_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Documents/INF1500/Labo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top MUX_2_vers_1_4bits_MUX_1B_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9040 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 393.441 ; gain = 99.758
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MUX_2_vers_1_4bits_MUX_1B_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/synth/MUX_2_vers_1_4bits_MUX_1B_0_0.vhd:68]
+INFO: [Synth 8-3491] module 'MUX_1B' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:14' bound to instance 'U0' of component 'MUX_1B' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/synth/MUX_2_vers_1_4bits_MUX_1B_0_0.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'MUX_1B' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:30]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_and3_0_0' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/synth/MUX_1B_xup_and3_0_0.v:57' bound to instance 'xup_and3_0' of component 'MUX_1B_xup_and3_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:105]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_and3_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/synth/MUX_1B_xup_and3_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_and3' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_and3' (1#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_and3_0_0' (2#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/synth/MUX_1B_xup_and3_0_0.v:57]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_and3_0_1' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_1/synth/MUX_1B_xup_and3_0_1.v:57' bound to instance 'xup_and3_1' of component 'MUX_1B_xup_and3_0_1' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:112]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_and3_0_1' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_1/synth/MUX_1B_xup_and3_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_and3_0_1' (3#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_1/synth/MUX_1B_xup_and3_0_1.v:57]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_and3_0_2' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_2/synth/MUX_1B_xup_and3_0_2.v:57' bound to instance 'xup_and3_2' of component 'MUX_1B_xup_and3_0_2' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:119]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_and3_0_2' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_2/synth/MUX_1B_xup_and3_0_2.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_and3_0_2' (4#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_2/synth/MUX_1B_xup_and3_0_2.v:57]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_and3_0_3' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_3/synth/MUX_1B_xup_and3_0_3.v:57' bound to instance 'xup_and3_3' of component 'MUX_1B_xup_and3_0_3' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:126]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_and3_0_3' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_3/synth/MUX_1B_xup_and3_0_3.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_and3_0_3' (5#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_3/synth/MUX_1B_xup_and3_0_3.v:57]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_inv_0_0' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/synth/MUX_1B_xup_inv_0_0.v:57' bound to instance 'xup_inv_0' of component 'MUX_1B_xup_inv_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:133]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_inv_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/synth/MUX_1B_xup_inv_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_inv' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_inv' (6#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_inv_0_0' (7#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/synth/MUX_1B_xup_inv_0_0.v:57]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_inv_0_1' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_1/synth/MUX_1B_xup_inv_0_1.v:57' bound to instance 'xup_inv_1' of component 'MUX_1B_xup_inv_0_1' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:138]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_inv_0_1' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_1/synth/MUX_1B_xup_inv_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_inv_0_1' (8#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_1/synth/MUX_1B_xup_inv_0_1.v:57]
+INFO: [Synth 8-3491] module 'MUX_1B_xup_or4_0_0' declared at 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/synth/MUX_1B_xup_or4_0_0.v:57' bound to instance 'xup_or4_0' of component 'MUX_1B_xup_or4_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:143]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1B_xup_or4_0_0' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/synth/MUX_1B_xup_or4_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_or4' [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/1eaf/xup_or4.srcs/sources_1/new/xup_or4.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_or4' (9#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/1eaf/xup_or4.srcs/sources_1/new/xup_or4.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1B_xup_or4_0_0' (10#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/synth/MUX_1B_xup_or4_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'MUX_1B' (11#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ipshared/306d/src/MUX_1B.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_vers_1_4bits_MUX_1B_0_0' (12#1) [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/synth/MUX_2_vers_1_4bits_MUX_1B_0_0.vhd:68]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 449.004 ; gain = 155.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 449.004 ; gain = 155.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 449.004 ; gain = 155.320
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/MUX_2_to_1_4B/ip/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.242 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 765.434 ; gain = 0.191
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 765.434 ; gain = 471.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 765.434 ; gain = 471.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1/dont_touch.xdc, line 30).
+Applied set_property DONT_TOUCH = true for U0/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/xup_and3_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/xup_and3_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/xup_and3_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/xup_or4_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 765.434 ; gain = 471.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 765.434 ; gain = 471.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 765.434 ; gain = 471.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.762 ; gain = 480.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.762 ; gain = 480.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT3 |     4|
+|3     |LUT4 |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------+--------------------+------+
+|      |Instance       |Module              |Cells |
++------+---------------+--------------------+------+
+|1     |top            |                    |     7|
+|2     |  U0           |MUX_1B              |     7|
+|3     |    xup_and3_0 |MUX_1B_xup_and3_0_0 |     1|
+|4     |      inst     |xup_and3_2          |     1|
+|5     |    xup_and3_1 |MUX_1B_xup_and3_0_1 |     1|
+|6     |      inst     |xup_and3_1          |     1|
+|7     |    xup_and3_2 |MUX_1B_xup_and3_0_2 |     1|
+|8     |      inst     |xup_and3_0          |     1|
+|9     |    xup_and3_3 |MUX_1B_xup_and3_0_3 |     1|
+|10    |      inst     |xup_and3            |     1|
+|11    |    xup_inv_0  |MUX_1B_xup_inv_0_0  |     1|
+|12    |    xup_inv_1  |MUX_1B_xup_inv_0_1  |     1|
+|13    |    xup_or4_0  |MUX_1B_xup_or4_0_0  |     1|
+|14    |      inst     |xup_or4             |     1|
++------+---------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 783.293 ; gain = 173.180
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 783.293 ; gain = 489.609
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 798.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 798.508 ; gain = 516.297
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 798.508 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1/MUX_2_vers_1_4bits_MUX_1B_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MUX_2_vers_1_4bits_MUX_1B_0_0, cache-ID = 33e77fa7f225587c
+INFO: [Coretcl 2-1174] Renamed 13 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.891 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1/MUX_2_vers_1_4bits_MUX_1B_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MUX_2_vers_1_4bits_MUX_1B_0_0_utilization_synth.rpt -pb MUX_2_vers_1_4bits_MUX_1B_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 22 11:17:34 2019...

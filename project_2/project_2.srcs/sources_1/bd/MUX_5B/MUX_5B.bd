@@ -1,0 +1,322 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x5FB8C3B318ABC320",
+      "device": "xc7a100tcsg324-1",
+      "name": "MUX_5B",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "MUX_1B_0": "",
+      "MUX_1B_1": "",
+      "MUX_1B_2": "",
+      "MUX_1B_3": "",
+      "xlconcat_0": "",
+      "ATAD_SPLIT_5_0": "",
+      "ATAD_SPLIT_5_1": "",
+      "ATAD_SPLIT_5_2": "",
+      "ATAD_SPLIT_5_3": "",
+      "MUX_1B_4": "",
+      "ATAD_SPLIT_2_0": ""
+    },
+    "ports": {
+      "ADD": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "SOUS": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "DIV": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "MIROIR": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "R1R0": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "S": {
+        "direction": "O",
+        "left": "4",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "5",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "MUX_1B_0": {
+        "vlnv": "xilinx.com:user:MUX_1B:1.0",
+        "xci_name": "MUX_5B_MUX_1B_0_9"
+      },
+      "MUX_1B_1": {
+        "vlnv": "xilinx.com:user:MUX_1B:1.0",
+        "xci_name": "MUX_5B_MUX_1B_1_0"
+      },
+      "MUX_1B_2": {
+        "vlnv": "xilinx.com:user:MUX_1B:1.0",
+        "xci_name": "MUX_5B_MUX_1B_2_0"
+      },
+      "MUX_1B_3": {
+        "vlnv": "xilinx.com:user:MUX_1B:1.0",
+        "xci_name": "MUX_5B_MUX_1B_3_1"
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "MUX_5B_xlconcat_0_2",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "5"
+          }
+        }
+      },
+      "ATAD_SPLIT_5_0": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_5:1.0",
+        "xci_name": "MUX_5B_ATAD_SPLIT_5_0_8"
+      },
+      "ATAD_SPLIT_5_1": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_5:1.0",
+        "xci_name": "MUX_5B_ATAD_SPLIT_5_1_0"
+      },
+      "ATAD_SPLIT_5_2": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_5:1.0",
+        "xci_name": "MUX_5B_ATAD_SPLIT_5_2_0"
+      },
+      "ATAD_SPLIT_5_3": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_5:1.0",
+        "xci_name": "MUX_5B_ATAD_SPLIT_5_3_0"
+      },
+      "MUX_1B_4": {
+        "vlnv": "xilinx.com:user:MUX_1B:1.0",
+        "xci_name": "MUX_5B_MUX_1B_4_0"
+      },
+      "ATAD_SPLIT_2_0": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_2:1.0",
+        "xci_name": "MUX_5B_ATAD_SPLIT_2_0_2"
+      }
+    },
+    "nets": {
+      "ADD_1": {
+        "ports": [
+          "ADD",
+          "ATAD_SPLIT_5_0/VIN"
+        ]
+      },
+      "SOUS_1": {
+        "ports": [
+          "SOUS",
+          "ATAD_SPLIT_5_1/VIN"
+        ]
+      },
+      "DIV_1": {
+        "ports": [
+          "DIV",
+          "ATAD_SPLIT_5_2/VIN"
+        ]
+      },
+      "MIROIR_1": {
+        "ports": [
+          "MIROIR",
+          "ATAD_SPLIT_5_3/VIN"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT0",
+          "MUX_1B_0/A0"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT1",
+          "MUX_1B_1/A0"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT2",
+          "MUX_1B_2/A0"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT3",
+          "MUX_1B_3/A0"
+        ]
+      },
+      "ATAD_SPLIT_5_0_VOUT4": {
+        "ports": [
+          "ATAD_SPLIT_5_0/VOUT4",
+          "MUX_1B_4/A0"
+        ]
+      },
+      "ATAD_SPLIT_5_1_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_5_1/VOUT0",
+          "MUX_1B_0/A1"
+        ]
+      },
+      "ATAD_SPLIT_5_1_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_5_1/VOUT1",
+          "MUX_1B_1/A1"
+        ]
+      },
+      "ATAD_SPLIT_5_1_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_5_1/VOUT3",
+          "MUX_1B_3/A1"
+        ]
+      },
+      "ATAD_SPLIT_5_1_VOUT4": {
+        "ports": [
+          "ATAD_SPLIT_5_1/VOUT4",
+          "MUX_1B_4/A1"
+        ]
+      },
+      "ATAD_SPLIT_5_2_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_5_2/VOUT0",
+          "MUX_1B_0/A2"
+        ]
+      },
+      "ATAD_SPLIT_5_2_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_5_2/VOUT1",
+          "MUX_1B_1/A2"
+        ]
+      },
+      "ATAD_SPLIT_5_2_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_5_2/VOUT2",
+          "MUX_1B_2/A2"
+        ]
+      },
+      "ATAD_SPLIT_5_2_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_5_2/VOUT3",
+          "MUX_1B_3/A2"
+        ]
+      },
+      "ATAD_SPLIT_5_2_VOUT4": {
+        "ports": [
+          "ATAD_SPLIT_5_2/VOUT4",
+          "MUX_1B_4/A2"
+        ]
+      },
+      "ATAD_SPLIT_5_3_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_5_3/VOUT0",
+          "MUX_1B_0/A3"
+        ]
+      },
+      "ATAD_SPLIT_5_3_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_5_3/VOUT1",
+          "MUX_1B_1/A3"
+        ]
+      },
+      "ATAD_SPLIT_5_3_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_5_3/VOUT2",
+          "MUX_1B_2/A3"
+        ]
+      },
+      "ATAD_SPLIT_5_3_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_5_3/VOUT3",
+          "MUX_1B_3/A3"
+        ]
+      },
+      "ATAD_SPLIT_5_3_VOUT4": {
+        "ports": [
+          "ATAD_SPLIT_5_3/VOUT4",
+          "MUX_1B_4/A3"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "S"
+        ]
+      },
+      "MUX_1B_0_S": {
+        "ports": [
+          "MUX_1B_0/S",
+          "xlconcat_0/In0"
+        ]
+      },
+      "MUX_1B_1_S": {
+        "ports": [
+          "MUX_1B_1/S",
+          "xlconcat_0/In1"
+        ]
+      },
+      "MUX_1B_2_S": {
+        "ports": [
+          "MUX_1B_2/S",
+          "xlconcat_0/In2"
+        ]
+      },
+      "MUX_1B_3_S": {
+        "ports": [
+          "MUX_1B_3/S",
+          "xlconcat_0/In3"
+        ]
+      },
+      "MUX_1B_4_S": {
+        "ports": [
+          "MUX_1B_4/S",
+          "xlconcat_0/In4"
+        ]
+      },
+      "R1R0_1": {
+        "ports": [
+          "R1R0",
+          "ATAD_SPLIT_2_0/VIN"
+        ]
+      },
+      "ATAD_SPLIT_2_0_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_2_0/VOUT0",
+          "MUX_1B_0/R0",
+          "MUX_1B_1/R0",
+          "MUX_1B_2/R0",
+          "MUX_1B_3/R0",
+          "MUX_1B_4/R0"
+        ]
+      },
+      "ATAD_SPLIT_2_0_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_2_0/VOUT1",
+          "MUX_1B_0/R1",
+          "MUX_1B_1/R1",
+          "MUX_1B_3/R1",
+          "MUX_1B_2/R1",
+          "MUX_1B_4/R1"
+        ]
+      },
+      "ATAD_SPLIT_5_1_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_5_1/VOUT2",
+          "MUX_1B_2/A1"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1228 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 21 14:08:36 2019
+# Process ID: 11096
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15420 D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.xpr
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/project_2/vivado.log
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_xup_xor2_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_ATAD_SPLIT_5_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_ATAD_SPLIT_5_0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_MIROIR_5B_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_DIV_4_5B_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_full_adder_4B_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mini_UAL_MUX_5B_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'MIROIR_5B_xup_nor5_0_1_synth_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Documents/INF1500/Labo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'MIROIR_5B_xup_nor5_0_1' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_nor5_0_1/MIROIR_5B_xup_nor5_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIROIR_5B_xup_nor5_0_1' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MIROIR_5B/ip/MIROIR_5B_xup_nor5_0_1/MIROIR_5B_xup_nor5_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'DIV_4_5B_xup_xor2_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_DIV_4_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_full_adder_4B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/mini_UAL_full_adder_4B_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_full_adder_4B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_full_adder_4B_0_0/mini_UAL_full_adder_4B_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'DIV_4_5B_xup_xor2_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_DIV_4_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_0/MUX_5B_MUX_1B_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_0/MUX_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_1/MUX_5B_MUX_1B_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_2/MUX_5B_MUX_1B_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_3/MUX_5B_MUX_1B_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_4/MUX_5B_MUX_1B_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_xlconcat_0_0/MUX_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_1/MUX_5B_ATAD_SPLIT_5_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_2/MUX_5B_ATAD_SPLIT_5_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_2_0_0/MUX_5B_ATAD_SPLIT_2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_3/MUX_5B_ATAD_SPLIT_5_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ipshared/73ce/sim/MUX_5B.v'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'MUX_5B_MUX_1B_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_MUX_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_0/MUX_5B_MUX_1B_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_0/MUX_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_2/MUX_5B_MUX_1B_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_3/MUX_5B_MUX_1B_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_4/MUX_5B_MUX_1B_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_xlconcat_0_0/MUX_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_1/MUX_5B_ATAD_SPLIT_5_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_2/MUX_5B_ATAD_SPLIT_5_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_2_0_0/MUX_5B_ATAD_SPLIT_2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_3/MUX_5B_ATAD_SPLIT_5_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_0/MUX_5B_MUX_1B_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_0/MUX_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_2/MUX_5B_MUX_1B_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_3/MUX_5B_MUX_1B_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_4/MUX_5B_MUX_1B_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_xlconcat_0_0/MUX_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_1/MUX_5B_ATAD_SPLIT_5_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_2/MUX_5B_ATAD_SPLIT_5_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_2_0_0/MUX_5B_ATAD_SPLIT_2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_3/MUX_5B_ATAD_SPLIT_5_0_3.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'MUX_5B_MUX_1B_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_MUX_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/MUX_1B_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_1_0/MUX_1B_xup_and3_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_2_0/MUX_1B_xup_and3_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_3_0/MUX_1B_xup_and3_3_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/MUX_1B_xup_or4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/MUX_1B_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_1_0/MUX_1B_xup_inv_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/MUX_1B_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_1_0/MUX_1B_xup_and3_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_2_0/MUX_1B_xup_and3_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_3_0/MUX_1B_xup_and3_3_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/MUX_1B_xup_or4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/MUX_1B_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_1_0/MUX_1B_xup_inv_1_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'MUX_1B_xup_and3_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'MUX_5B_MUX_1B_0_0'. Error during subcore creation.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:15 . Memory (MB): peak = 716.875 ; gain = 77.941
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:09:32 2019] Launched mini_UAL_xup_xor2_0_0_synth_1, mini_UAL_ATAD_SPLIT_5_0_0_synth_1, mini_UAL_ATAD_SPLIT_5_0_1_synth_1, mini_UAL_MIROIR_5B_0_0_synth_1, mini_UAL_DIV_4_5B_0_0_synth_1, mini_UAL_full_adder_4B_0_0_synth_1, mini_UAL_MUX_5B_0_0_synth_1, MIROIR_5B_xup_nor5_0_1_synth_1...
+Run output will be captured here:
+mini_UAL_xup_xor2_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_xup_xor2_0_0_synth_1/runme.log
+mini_UAL_ATAD_SPLIT_5_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_ATAD_SPLIT_5_0_0_synth_1/runme.log
+mini_UAL_ATAD_SPLIT_5_0_1_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_ATAD_SPLIT_5_0_1_synth_1/runme.log
+mini_UAL_MIROIR_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MIROIR_5B_0_0_synth_1/runme.log
+mini_UAL_DIV_4_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+mini_UAL_full_adder_4B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_full_adder_4B_0_0_synth_1/runme.log
+mini_UAL_MUX_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MUX_5B_0_0_synth_1/runme.log
+MIROIR_5B_xup_nor5_0_1_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/MIROIR_5B_xup_nor5_0_1_synth_1/runme.log
+[Mon Oct 21 14:09:36 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 779.809 ; gain = 11.504
+generate_target synthesis
+ERROR: [Common 17-163] Missing value for option 'objects', please type 'generate_target -help' for usage info.
+generate_target -help
+generate_target
+
+Description: 
+Generate target data for the specified source
+
+Syntax: 
+generate_target  [-force] [-quiet] [-verbose] <name> <objects>
+
+Usage: 
+  Name        Description
+  -----------------------
+  [-force]    Force target data regeneration
+  [-quiet]    Ignore command errors
+  [-verbose]  Suspend message limits during command execution
+  <name>      List of targets to be generated, or 'all' to generate all 
+              supported targets
+  <objects>   The objects for which data needs to be generated
+
+Categories: 
+Project, IPFlow, IPIntegrator
+
+Description:
+
+  This command generates target data for the specified IP objects (get_ips)
+  or source file for IP cores (.xci and .xco), DSP modules (.slx or .mdl), or
+  block designs (.bd). The target data that is generated are the files
+  necessary to support the IP or block design through the FPGA design flow.
+
+  The instantiation template, synthesis netlist, and simulation netlist are
+  standard targets. However, each IP in the catalog may also support its own
+  set of targets. You can view the available targets on an object by
+  examining the SUPPORTED_TARGETS property, or you can use the list_targets
+  command to list the targets for design source file.
+
+Arguments:
+
+  -force - (Optional) Force target data regeneration, and overwrite any
+  existing target data files. Without -force, the tool will not regenerate
+  any target data that is up-to-date.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+  <name> - (Required) The names of the types of target data to create for the
+  specified source. The specific targets supported by an IP core are listed
+  in the SUPPORTED_TARGETS property on the object. You can query this
+  property to see which targets a specific object supports. Standard values
+  are:
+
+   *  all - Generate all targets for the specified IP or file, except the
+      example project.
+
+      Note: You can generate an example project for an IP core using the
+      open_example_project command.
+
+   *  instantiation_template - Generate the Instantiation template used to
+      add the RTL module definition for the IP core into the current design.
+      The instantiation template can be copied into any desired level of the
+      design hierarchy.
+
+   *  synthesis - Synthesis targets deliver HDL files that are used during
+      synthesis for native IP, or deliver a synthesized netlist file (DCP)
+      generated by Vivado synthesis.
+
+   *  simulation - Simulation targets deliver HDL files that are used in
+      simulation.
+
+   *  implementation - Implementation generates the necessary data for
+      implementing the IP core, DSP module, or Embedded Processor in the
+      current design.
+
+  <objects> - (Required) The objects to generate the target from. Supported
+  objects can include IP core objects (get_ips), or the source files (.xci or
+  .xco), block design files (.bd) from IP integrator, and DSP modules (.slx
+  or .mdl) imported from System Generator.
+
+  Note: Use get_files to specify a file object, rather than specifying a file
+  name.
+
+Examples:
+
+  This example generates the change log for all of the IP cores in the
+  current project, forcing regeneration of any targets that are up-to-date:
+
+    generate_target changelog [get_ips] -force 
+    
+
+  The following example generates the instantiation template and synthesis
+  targets for all of the IP cores in the current project:
+
+    generate_target {instantiation_template synthesis} [get_ips] 
+    
+
+  Note: Note the use of the braces to pass the list of targets to the
+  command. The absence of the -force option means that only out-of-date
+  targets will be regenerated.
+
+  The following example generates all targets for the specified block design:
+
+    generate_target all \  
+    [get_files  C:/Data/project_mb/project_mb.srcs/sources_1/bd/base_mb/base_mb.bd] 
+    
+
+  Note: The use of get_ips is not supported to generate targets for
+  individual IP within block designs. The tool will return an error.
+
+  The following queries the SUPPORTED_TARGETS property of the specified IP
+  object, and then generates the example project for the IP:
+
+    get_property SUPPORTED_TARGETS [get_ips blk_mem*]  
+    open_example_project -dir C:/Data/examples -force [get_ips blk_mem*] 
+    
+
+See Also:
+
+   *  add_files
+   *  create_ip
+   *  create_sysgen
+   *  import_ip
+   *  list_targets
+   *  open_example_project
+   *  read_ip
+   *  report_property
+   *  reset_target
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run mini_UAL_MUX_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:12:53 2019] Launched mini_UAL_DIV_4_5B_0_0_synth_1, mini_UAL_MUX_5B_0_0_synth_1...
+Run output will be captured here:
+mini_UAL_DIV_4_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+mini_UAL_MUX_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MUX_5B_0_0_synth_1/runme.log
+[Mon Oct 21 14:12:53 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+close_project
+open_project D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Documents/INF1500/Labo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'DIV_4_5B_xup_xor2_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_DIV_4_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xup_xor2_0_0/DIV_4_5B_xup_xor2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_ATAD_SPLIT_5_0_0/DIV_4_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_DIV_4_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_DIV_4_5B_0_0_1/src/DIV_4_5B_xlconcat_0_0/DIV_4_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'DIV_4_5B_xup_xor2_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_DIV_4_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_0/MUX_5B_MUX_1B_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_0/MUX_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_1/MUX_5B_MUX_1B_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_2/MUX_5B_MUX_1B_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_3/MUX_5B_MUX_1B_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_MUX_1B_0_4/MUX_5B_MUX_1B_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_xlconcat_0_0/MUX_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_1/MUX_5B_ATAD_SPLIT_5_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_2/MUX_5B_ATAD_SPLIT_5_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_2_0_0/MUX_5B_ATAD_SPLIT_2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0/src/MUX_5B_ATAD_SPLIT_5_0_3/MUX_5B_ATAD_SPLIT_5_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ipshared/73ce/sim/MUX_5B.v'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'MUX_5B_MUX_1B_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_MUX_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_0/MUX_5B_MUX_1B_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_0/MUX_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_2/MUX_5B_MUX_1B_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_3/MUX_5B_MUX_1B_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_4/MUX_5B_MUX_1B_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_xlconcat_0_0/MUX_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_1/MUX_5B_ATAD_SPLIT_5_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_2/MUX_5B_ATAD_SPLIT_5_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_2_0_0/MUX_5B_ATAD_SPLIT_2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_3/MUX_5B_ATAD_SPLIT_5_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_0/MUX_5B_MUX_1B_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_0/MUX_5B_ATAD_SPLIT_5_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_2/MUX_5B_MUX_1B_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_3/MUX_5B_MUX_1B_0_3.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_MUX_1B_0_4/MUX_5B_MUX_1B_0_4.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_xlconcat_0_0/MUX_5B_xlconcat_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_1/MUX_5B_ATAD_SPLIT_5_0_1.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_2/MUX_5B_ATAD_SPLIT_5_0_2.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_2_0_0/MUX_5B_ATAD_SPLIT_2_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mini_UAL_MUX_5B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ip/mini_UAL_MUX_5B_0_0_1/src/MUX_5B_ATAD_SPLIT_5_0_3/MUX_5B_ATAD_SPLIT_5_0_3.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'MUX_5B_MUX_1B_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'mini_UAL_MUX_5B_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/MUX_1B_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_1_0/MUX_1B_xup_and3_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_2_0/MUX_1B_xup_and3_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_3_0/MUX_1B_xup_and3_3_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/MUX_1B_xup_or4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/MUX_1B_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_1_0/MUX_1B_xup_inv_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/MUX_1B_xup_and3_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_1_0/MUX_1B_xup_and3_1_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_2_0/MUX_1B_xup_and3_2_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_and3_3_0/MUX_1B_xup_and3_3_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/MUX_1B_xup_or4_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/MUX_1B_xup_inv_0_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MUX_5B_MUX_1B_0_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_0/src/MUX_1B_xup_inv_1_0/MUX_1B_xup_inv_1_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'MUX_1B_xup_and3_0_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'MUX_5B_MUX_1B_0_0'. Error during subcore creation.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 813.867 ; gain = 16.801
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_3
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_1
+Adding component instance block -- xilinx.com:user:MIROIR_5B:1.0 - MIROIR_5B_0
+Adding component instance block -- xilinx.com:user:DIV_4_5B:1.0 - DIV_4_5B_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: mini_UAL_DIV_4_5B_0_0 
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_4
+Adding component instance block -- xilinx.com:user:full_adder_4B:1.0 - full_adder_4B_0
+Adding component instance block -- xilinx.com:user:MUX_5B:1.0 - MUX_5B_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: mini_UAL_MUX_5B_0_0 
+Successfully read diagram <mini_UAL> from BD file <D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+validate_bd_design
+update_compile_order -fileset sources_1
+save_bd_design
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run mini_UAL_MUX_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:16:49 2019] Launched mini_UAL_DIV_4_5B_0_0_synth_1, mini_UAL_MUX_5B_0_0_synth_1...
+Run output will be captured here:
+mini_UAL_DIV_4_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+mini_UAL_MUX_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MUX_5B_0_0_synth_1/runme.log
+[Mon Oct 21 14:16:49 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+generate_target synthesis mini_UAL.bd
+ERROR: [Common 17-161] Invalid option value 'mini_UAL.bd' specified for 'objects'.
+validate_bd_design -force
+generate_target all [get_files mini_UAL.bd]
+INFO: [BD 41-1662] The design 'mini_UAL.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/sim/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIROIR_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_adder_4B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_5B_0 .
+Exporting to file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.hwdef
+generate_target: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1001.340 ; gain = 148.426
+launch_runs
+ERROR: [Common 17-163] Missing value for option 'runs', please type 'launch_runs -help' for usage info.
+launch_runs -help
+launch_runs
+
+Description: 
+Launch a set of runs
+
+Syntax: 
+launch_runs  [-jobs <arg>] [-scripts_only] [-lsf <arg>] [-sge <arg>]
+             [-dir <arg>] [-to_step <arg>] [-next_step] [-host <args>]
+             [-remote_cmd <arg>] [-email_to <args>] [-email_all]
+             [-pre_launch_script <arg>] [-post_launch_script <arg>]
+             [-custom_script <arg>] [-force] [-quiet] [-verbose] <runs>...
+
+Usage: 
+  Name                   Description
+  ----------------------------------
+  [-jobs]                Number of jobs
+                         Default: 1
+  [-scripts_only]        Only generate scripts
+  [-lsf]                 Use LSF to launch jobs. Required argument is the 
+                         bsub command line to pass to LSF
+                         Default: empty
+  [-sge]                 Use SGE to launch jobs. Required argument is the 
+                         qsub command line to pass to SGE
+                         Default: empty
+  [-dir]                 Launch directory
+  [-to_step]             Last Step to run. Ignored when launching multiple 
+                         runs. Not valid with -next_step
+  [-next_step]           Run next step. Ignored when launching multiple runs.
+                         Not valid with -to_step.
+  [-host]                Launch on specified remote host with a specified 
+                         number of jobs. Example: -host {machine1 2} -host 
+                         {machine2 4}
+  [-remote_cmd]          Command to log in to remote hosts
+                         Default: ssh -q -o BatchMode=yes
+  [-email_to]            List of email addresses to notify when jobs complete
+                         (only applicable with -host)
+  [-email_all]           Send email after each job completes (only applicable
+                         with -host)
+  [-pre_launch_script]   Script to run before launching each job (only 
+                         applicable with -host)
+  [-post_launch_script]  Script to run after each job completes (only 
+                         applicable with -host)
+  [-custom_script]       User run script map file which contains run name to 
+                         user run script mapping
+  [-force]               Run the command, even if there are pending 
+                         constraint changes, which will be lost (in a Partial
+                         Reconfig design)
+  [-quiet]               Ignore command errors
+  [-verbose]             Suspend message limits during command execution
+  <runs>                 Runs to launch
+
+Categories: 
+Project
+
+Description:
+
+  Launches synthesis and implementation runs when running the Vivado tools in
+  Project Mode. Refer to the Vivado Design Suite User Guide: Design Flows
+  Overview (UG892) for a complete description of Project Mode and Non-Project
+  Mode.
+
+  A run must be previously defined using the create_run command, and the
+  properties of the run must be previously configured using the set_property
+  command. Both synthesis and implementation runs can be specified in the
+  same launch_runs command. However, to launch an implementation run, the
+  parent synthesis run must already be complete.
+
+  In Non-Project Mode, Vivado synthesis can be launched directly using the
+  synth_design command, and does not require the use of a defined run.
+
+  In Non-Project Mode, Vivado implementation steps can be launched
+  individually with the opt_design, power_opt_design, place_design,
+  route_design, phys_opt_design, and write_bitstream commands.
+
+Arguments:
+
+  -jobs <arg> - (Optional) The number of parallel jobs to run on the local
+  host. The number of jobs for a remote host is specified as part of the
+  -host argument. You do not need to specify both -jobs and -host.
+
+  -scripts_only - (Optional) Generate a script called runme.bat for each
+  specified run so you can queue the runs to be launched at a later time.
+
+  -lsf <arg> - (Optional) Use IBM Platform Load Sharing Facility (LSF) to
+  launch synthesis and implementation runs. The bsub command line to pass to
+  LSF must be specified as a required argument.
+
+  -sge <arg> - (Optional) Use Oracle Grid Engine or Sun Grid Engine (SGE) to
+  launch synthesis and implementation runs. The qsub command line is a
+  required argument to submit a job to SGE.
+
+  -dir <arg> - (Optional) The directory for the tool to write run results
+  into. A separate folder for each run is created under the specified
+  directory. As a default the tool will write the results of each run into a
+  separate folder under the <project>.runs directory.
+
+  -to_step <arg> - (Optional) Launch the run through the specified step in
+  the implementation process, and then stop. For instance, run implementation
+  through the place_design step, and then stop. This will allow you to look
+  at specific stages of a run without completing the entire run. The
+  following are the valid steps for implementation runs.
+
+   *  opt_design - Optionally optimize the logical design to more efficiently
+      use the target device resources. This step is usually enabled by
+      default even though it is an optional step.
+
+   *  power_opt_design - Optionally optimize elements of the logic design to
+      reduce power demands of the implemented FPGA.
+
+   *  place_design - Place logic cells onto the target device. This is a
+      required step.
+
+   *  power_opt_design (Post-Place) - Optionally optimize power demands of
+      the placed logic elements. This step must be enclosed in quotes or
+      braces since it includes multiple words (e.g. -to_step
+      "power_opt_design (Post-Place)" ).
+
+   *  phys_opt_design - Optionally optimize design timing by replicating
+      drives of high-fanout nets to better distribute the loads.
+
+   *  route_design - Route the connections of the design onto the target
+      FPGA. This is a required step.
+
+   *  write_bitstream - Generate a bitstream file for Xilinx device
+      configuration. This is a required step.
+
+  Note: The specified -to_step must be enabled for the implementation run
+  using the set_property command, or the Vivado tool will return an error.
+
+  -next_step - (Optional) Continue a prior run from the step at which it was
+  stopped. This option can be used to complete a run previously launched with
+  the -to_step argument.
+
+  Note: The -to_step and -next_step arguments may not be specified together,
+  and are ignored when launching multiple runs.
+
+  -host <args> - (Optional) Launch on the named remote host with a specified
+  number of jobs. The argument is in the form of {<hostname> <jobs> }, for
+  example: -host {machine1 2}. If the -host argument is not specified, the
+  runs will be launched from the local host.
+
+  Note: This argument is supported on the Linux platform only.
+
+  -remote_cmd <arg> - (Optional) The command to use to login to the remote
+  host to launch jobs. The default remote command is "ssh -q -o
+  BatchMode=yes".
+
+  -email_to <args> - (Optional) Email addresses to send a notification to
+  when the runs have completed processing. This option also requires the use
+  of -host with an SMTP server running to send Email notifications.
+
+  -email_all - (Optional) Send a separate Email for each run as it completes.
+  This option also requires the use of -host with an SMTP server running to
+  send Email notifications.
+
+  -pre_launch_script <arg> - (Optional) A shell script to run on the
+  specified host before launching each job. This option also requires the use
+  of -host.
+
+  -post_launch_script <arg> - (Optional) A shell script to run on the
+  specified host after completion of all jobs. This option also requires the
+  use of -host.
+
+  -custom_script <arg> - (Optional) Specify a script map file, which contains
+  a mapping of run names and scripts to launch for that run.
+
+  -force - (Optional) Launch the run regardless of any pending constraint
+  changes for Partial Reconfiguration designs.
+
+  Note: This argument applies only to Partial Reconfiguration projects. Any
+  pending constraint changes will be lost to the specified runs.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+  <runs> - (Required) The names of synthesis and implementation runs to
+  launch. One or more run names may be specified.
+
+Examples:
+
+  The following command launches three different synthesis runs with two
+  parallel jobs:
+
+    launch_runs synth_1 synth_2 synth_4 -jobs 2 
+    
+
+  Note: The results for each run will be written to a separate folder
+  synth_1, synth_2, and synth_4 inside of the <project>.runs directory.
+
+  The following example creates a results directory to write run results. In
+  this case a separate folder named impl_3, impl_4, and synth_3 will be
+  written to the specified directory. In addition, the -scripts_only argument
+  tells the tool to write runme.bat scripts to each of these folders but not
+  to launch the runs at this time.
+
+    launch_runs impl_3 impl_4 synth_3 -dir C:/Data/FPGA_Design/results -scripts_only 
+    
+
+  The following example configures the impl_1 run, setting options for Vivado
+  Implementation 2013, enabling some of the optional optimizations, and then
+  launches the run to the place_design step:
+
+    set_property flow {Vivado Implementation 2013} [get_runs impl_1]  
+    set_property STEPS.POWER_OPT_DESIGN.IS_ENABLED true [get_runs impl_1]  
+    set_property STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED true \  
+       [get_runs impl_1]  
+    set_property STEPS.PHYS_OPT_DESIGN.IS_ENABLED true [get_runs impl_1]  
+    launch_runs -to_step place_design impl_1 
+    
+
+See Also:
+
+   *  create_run
+   *  get_runs
+   *  opt_design
+   *  phys_opt_design
+   *  place_design
+   *  power_opt_design
+   *  reset_run
+   *  route_design
+   *  set_property
+   *  synth_design
+   *  write_bitstream
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run mini_UAL_MUX_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:21:21 2019] Launched mini_UAL_DIV_4_5B_0_0_synth_1, mini_UAL_MUX_5B_0_0_synth_1...
+Run output will be captured here:
+mini_UAL_DIV_4_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+mini_UAL_MUX_5B_0_0_synth_1: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_MUX_5B_0_0_synth_1/runme.log
+[Mon Oct 21 14:21:21 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+reset_run synth_1
+validate_bd_design -force
+generate_target all [get_files mini_UAL.bd]
+INFO: [BD 41-1662] The design 'mini_UAL.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/sim/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIROIR_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block full_adder_4B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_5B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_5B_0 .
+Exporting to file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hw_handoff/mini_UAL_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.hwdef
+launch_runs synth_1 -jobs 4
+ERROR: [Common 17-70] Application Exception: Failed to launch run 'synth_1' due to failures in the following run(s):
+mini_UAL_DIV_4_5B_0_0_synth_1
+mini_UAL_MUX_5B_0_0_synth_1
+These failed run(s) need to be reset prior to launching 'synth_1' again.
+
+set_property top MUX_5B_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_5B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MUX_5B_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_0_0/sim/MUX_1B_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_1_0/sim/MUX_1B_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_2_0/sim/MUX_1B_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_and3_3_0/sim/MUX_1B_xup_and3_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/ipshared/1eaf/xup_or4.srcs/sources_1/new/xup_or4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_or4_0_0/sim/MUX_1B_xup_or4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_or4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_inv_0_0/sim/MUX_1B_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/src/MUX_1B_xup_inv_1_0/sim/MUX_1B_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ipshared/7fab/sim/MUX_1B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_1/sim/MUX_5B_MUX_1B_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_MUX_1B_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/sim/MUX_5B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_0_5/sim/MUX_5B_MUX_1B_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_MUX_1B_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_2_0/sim/MUX_5B_MUX_1B_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_MUX_1B_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_3_0/sim/MUX_5B_MUX_1B_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_MUX_1B_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_MUX_1B_4_0/sim/MUX_5B_MUX_1B_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_MUX_1B_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v" into library xlconcat_v2_1_3
+INFO: [VRFC 10-311] analyzing module xlconcat_v2_1_3_xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_xlconcat_0_1/sim/MUX_5B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_5B_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj MUX_5B_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ipshared/36fb/sim/ATAD_SPLIT_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_5'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_0_4/sim/MUX_5B_ATAD_SPLIT_5_0_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_5B_ATAD_SPLIT_5_0_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_2_0/sim/MUX_5B_ATAD_SPLIT_5_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_5B_ATAD_SPLIT_5_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_3_0/sim/MUX_5B_ATAD_SPLIT_5_3_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_5B_ATAD_SPLIT_5_3_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_2_0_1/sim/MUX_5B_ATAD_SPLIT_2_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_5B_ATAD_SPLIT_2_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_5B/ip/MUX_5B_ATAD_SPLIT_5_1_0/sim/MUX_5B_ATAD_SPLIT_5_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_5B_ATAD_SPLIT_5_1_0'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1045.543 ; gain = 1.695
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MUX_5B_wrapper_behav xil_defaultlib.MUX_5B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MUX_5B_wrapper_behav xil_defaultlib.MUX_5B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'SOUS' on this module [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v:39]
+ERROR: [VRFC 10-3180] cannot find port 'ADD' on this module [D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v:34]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1045.543 ; gain = 1.695
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd}
+Adding component instance block -- xilinx.com:user:MUX_1B:1.0 - MUX_1B_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_0
+Adding component instance block -- xilinx.com:user:MUX_1B:1.0 - MUX_1B_1
+Adding component instance block -- xilinx.com:user:MUX_1B:1.0 - MUX_1B_2
+Adding component instance block -- xilinx.com:user:MUX_1B:1.0 - MUX_1B_3
+Adding component instance block -- xilinx.com:user:MUX_1B:1.0 - MUX_1B_4
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_2
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_3
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_2:1.0 - ATAD_SPLIT_2_0
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_5:1.0 - ATAD_SPLIT_5_1
+Successfully read diagram <MUX_5B> from BD file <D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd>
+WARNING: [filemgmt 20-645] DesignGraph 'sources_1-0-27-mini_UAL-(1)-9-mini_UAL_DIV_4_5B_0_0' already exists.
+report_ip_status -name ip_status 
+export_ip_user_files -of_objects  [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+file delete -force D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+set_property top MUX_1B_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+generate_target Simulation [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd]
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\MUX_1B\MUX_1B.bd> 
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/synth/MUX_1B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/sim/MUX_1B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hdl/MUX_1B_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+Exporting to file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hw_handoff/MUX_1B.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hw_handoff/MUX_1B_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/synth/MUX_1B.hwdef
+export_ip_user_files -of_objects [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd] -directory D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/sim_scripts -ip_user_files_dir D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files -ipstatic_source_dir D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [BD 41-1662] The design 'MUX_1B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/synth/MUX_1B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/sim/MUX_1B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hdl/MUX_1B_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+Exporting to file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hw_handoff/MUX_1B.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hw_handoff/MUX_1B_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/synth/MUX_1B.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/MUX_1B.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_1B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MUX_1B_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_0_0/sim/MUX_1B_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_1_0/sim/MUX_1B_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_2_0/sim/MUX_1B_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_3_0/sim/MUX_1B_xup_and3_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ipshared/1eaf/xup_or4.srcs/sources_1/new/xup_or4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_or4_0_0/sim/MUX_1B_xup_or4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_or4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_inv_0_0/sim/MUX_1B_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_inv_1_0/sim/MUX_1B_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/sim/MUX_1B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_0_2/sim/MUX_1B_xup_and3_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_1_2/sim/MUX_1B_xup_and3_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_2_2/sim/MUX_1B_xup_and3_2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_and3_3_2/sim/MUX_1B_xup_and3_3_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_3_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_or4_0_2/sim/MUX_1B_xup_or4_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_or4_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_inv_0_2/sim/MUX_1B_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.ip_user_files/bd/MUX_1B/ip/MUX_1B_xup_inv_1_2/sim/MUX_1B_xup_inv_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_1B/hdl/MUX_1B_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_wrapper
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MUX_1B_wrapper_behav xil_defaultlib.MUX_1B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c6ff9ffe4fb43a8ac4bfe517adc47c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MUX_1B_wrapper_behav xil_defaultlib.MUX_1B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_1_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_2_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_3_2
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.MUX_1B_xup_inv_0_2
+Compiling module xil_defaultlib.MUX_1B_xup_inv_1_2
+Compiling module xil_defaultlib.xup_or4
+Compiling module xil_defaultlib.MUX_1B_xup_or4_0_2
+Compiling module xil_defaultlib.MUX_1B
+Compiling module xil_defaultlib.MUX_1B_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MUX_1B_wrapper_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/MUX_1B_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/MUX_1B_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Oct 21 14:27:43 2019. For additional details about this file, please refer to the WebTalk help file at D:/Users/Nathan/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 21 14:27:43 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1344.359 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_1B_wrapper_behav -key {Behavioral:sim_1:Functional:MUX_1B_wrapper} -tclbatch {MUX_1B_wrapper.tcl} -protoinst "protoinst_files/MIROIR_5B.protoinst" -protoinst "protoinst_files/mini_UAL.protoinst" -protoinst "protoinst_files/DIV_4_5B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_5B.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MIROIR_5B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MIROIR_5B.protoinst for the following reason(s):
+There are no instances of module "MIROIR_5B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/mini_UAL.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/mini_UAL.protoinst for the following reason(s):
+There are no instances of module "mini_UAL" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_5B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/DIV_4_5B.protoinst for the following reason(s):
+There are no instances of module "DIV_4_5B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_5B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_5B.protoinst for the following reason(s):
+There are no instances of module "MUX_5B" in the design.
+
+Time resolution is 1 ps
+source MUX_1B_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1344.359 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_1B_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 1344.359 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1344.359 ; gain = 0.000
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd}
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_0_VOUT1] [get_bd_nets ATAD_SPLIT_5_1_VOUT8] [get_bd_nets ATAD_SPLIT_5_1_VOUT1] [get_bd_nets ATAD_SPLIT_5_2_VOUT1] [get_bd_nets MUX_1B_1_S] [get_bd_cells MUX_1B_1]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_0_VOUT0] [get_bd_nets ATAD_SPLIT_5_1_VOUT9] [get_bd_nets ATAD_SPLIT_5_1_VOUT0] [get_bd_nets ATAD_SPLIT_5_2_VOUT0] [get_bd_nets MUX_1B_0_S] [get_bd_cells MUX_1B_0]
+export_ip_user_files -of_objects  [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd] -no_script -reset -force -quiet
+remove_files  D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd
+file delete -force D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B
+create_bd_design "MUX_5B"
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\MUX_5B\MUX_5B.bd> 
+update_compile_order -fileset sources_1
+create_bd_port -dir I -from 4 -to 0 ADD
+copy_bd_objs /  [get_bd_ports {ADD}]
+copy_bd_objs /  [get_bd_ports {ADD}]
+copy_bd_objs /  [get_bd_ports {ADD}]
+set_property name SOUS [get_bd_ports ADD1]
+set_property name DIV [get_bd_ports ADD2]
+set_property name MIROIR [get_bd_ports ADD3]
+create_bd_port -dir I -from 1 -to 0 R1R0
+create_bd_port -dir O -from 4 -to 0 S
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX_1B:1.0 MUX_1B_0
+endgroup
+WARNING: [filemgmt 20-645] DesignGraph 'sim_1-0-27-mini_UAL-(3)-9-mini_UAL_DIV_4_5B_0_0' already exists.
+copy_bd_objs /  [get_bd_cells {MUX_1B_0}]
+copy_bd_objs /  [get_bd_cells {MUX_1B_0}]
+copy_bd_objs /  [get_bd_cells {MUX_1B_0}]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+WARNING: [filemgmt 20-645] DesignGraph 'sources_1-0-27-mini_UAL-(1)-9-mini_UAL_MUX_5B_0_0' already exists.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ATAD_SPLIT_5:1.0 ATAD_SPLIT_5_0
+endgroup
+copy_bd_objs /  [get_bd_cells {ATAD_SPLIT_5_0}]
+copy_bd_objs /  [get_bd_cells {ATAD_SPLIT_5_0}]
+WARNING: [filemgmt 20-645] DesignGraph 'sim_1-0-27-mini_UAL-(5)-9-mini_UAL_DIV_4_5B_0_0' already exists.
+WARNING: [filemgmt 20-645] DesignGraph 'sim_2-0-27-mini_UAL-(5)-9-mini_UAL_MUX_5B_0_0' already exists.
+copy_bd_objs /  [get_bd_cells {ATAD_SPLIT_5_0}]
+connect_bd_net [get_bd_ports ADD] [get_bd_pins ATAD_SPLIT_5_0/VIN]
+connect_bd_net [get_bd_ports SOUS] [get_bd_pins ATAD_SPLIT_5_1/VIN]
+connect_bd_net [get_bd_ports DIV] [get_bd_pins ATAD_SPLIT_5_2/VIN]
+connect_bd_net [get_bd_ports MIROIR] [get_bd_pins ATAD_SPLIT_5_3/VIN]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT0] [get_bd_pins MUX_1B_0/A0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT1] [get_bd_pins MUX_1B_1/A1]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_0_VOUT1]
+connect_bd_net [get_bd_pins MUX_1B_1/A0] [get_bd_pins ATAD_SPLIT_5_0/VOUT1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT2] [get_bd_pins MUX_1B_2/A0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT3] [get_bd_pins MUX_1B_3/A0]
+copy_bd_objs /  [get_bd_cells {MUX_1B_3}]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_0/VOUT4] [get_bd_pins MUX_1B_4/A0]
+regenerate_bd_layout
+undo
+INFO: [Common 17-17] undo 'regenerate_bd_layout'
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT0] [get_bd_pins MUX_1B_0/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT1] [get_bd_pins MUX_1B_1/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT2] [get_bd_pins MUX_1B_2/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT3] [get_bd_pins MUX_1B_3/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_1/VOUT4] [get_bd_pins MUX_1B_4/A1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT0] [get_bd_pins MUX_1B_0/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT1] [get_bd_pins MUX_1B_1/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT2] [get_bd_pins MUX_1B_2/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT3] [get_bd_pins MUX_1B_3/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_2/VOUT4] [get_bd_pins MUX_1B_4/A2]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT0] [get_bd_pins MUX_1B_0/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT1] [get_bd_pins MUX_1B_1/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT2] [get_bd_pins MUX_1B_2/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT3] [get_bd_pins MUX_1B_3/A3]
+connect_bd_net [get_bd_pins ATAD_SPLIT_5_3/VOUT4] [get_bd_pins MUX_1B_4/A3]
+set_property -dict [list CONFIG.NUM_PORTS {5}] [get_bd_cells xlconcat_0]
+connect_bd_net [get_bd_ports S] [get_bd_pins xlconcat_0/dout]
+connect_bd_net [get_bd_pins MUX_1B_0/S] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins MUX_1B_1/S] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins MUX_1B_2/S] [get_bd_pins xlconcat_0/In2]
+connect_bd_net [get_bd_pins MUX_1B_3/S] [get_bd_pins xlconcat_0/In3]
+connect_bd_net [get_bd_pins MUX_1B_4/S] [get_bd_pins xlconcat_0/In4]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ATAD_SPLIT_2:1.0 ATAD_SPLIT_2_0
+endgroup
+connect_bd_net [get_bd_ports R1R0] [get_bd_pins ATAD_SPLIT_2_0/VIN]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_0/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_0/R1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_1/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_2/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_3/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT0] [get_bd_pins MUX_1B_4/R0]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_1/R1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_3/R1]
+connect_bd_net [get_bd_pins ATAD_SPLIT_2_0/VOUT1] [get_bd_pins MUX_1B_2/R1]
+connect_bd_net [get_bd_pins MUX_1B_4/R1] [get_bd_pins ATAD_SPLIT_5_1/VOUT2]
+delete_bd_objs [get_bd_nets ATAD_SPLIT_5_1_VOUT2]
+connect_bd_net [get_bd_pins MUX_1B_4/R1] [get_bd_pins ATAD_SPLIT_2_0/VOUT1]
+connect_bd_net [get_bd_pins MUX_1B_2/A1] [get_bd_pins ATAD_SPLIT_5_1/VOUT2]
+regenerate_bd_layout
+validate_bd_design
+make_wrapper -files [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/MUX_5B.bd] -top
+INFO: [BD 41-1662] The design 'MUX_5B.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\MUX_5B\MUX_5B.bd> 
+Wrote  : <D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/ui/bd_bf2498dc.ui> 
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/synth/MUX_5B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/sim/MUX_5B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+add_files -norecurse D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/Users/Nathan/Documents/INF1500/Labo/ip_repo/MUX_5B -vendor xilinx.com -library user -taxonomy /UserIP -module MUX_5B -import_files -force
+INFO: [BD 41-1662] The design 'MUX_5B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/synth/MUX_5B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/sim/MUX_5B.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hdl/MUX_5B_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_1B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_1B_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_1B_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_1B_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_5_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_1B_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_2_0 .
+Exporting to file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hw_handoff/MUX_5B.hwh
+Generated Block Design Tcl file D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/hw_handoff/MUX_5B_bd.tcl
+Generated Hardware Definition File D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/MUX_5B/synth/MUX_5B.hwdef
+WARNING: [IP_Flow 19-991] Unrecognized or unsupported file 'sim/MUX_5B.protoinst' found in file group 'Simulation'.
+Resolution: Remove the file from the specified file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::package_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1434.152 ; gain = 37.535
+ipx::remove_file sim/MUX_5B.protoinst [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]]
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:MUX_5B:1.0]
+update_ip_catalog -rebuild -repo_path d:/Users/Nathan/Documents/INF1500/Labo/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Users/Nathan/Documents/INF1500/Labo/ip_repo'
+ipx::unload_core d:/Users/Nathan/Documents/INF1500/Labo/ip_repo/MUX_5B/component.xml
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:MUX_5B:1.0 [get_ips  mini_UAL_MUX_5B_0_0] -log ip_upgrade.log
+Upgrading 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd'
+ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+
+upgrade_ip -vlnv xilinx.com:user:MUX_5B:1.0 [get_ips  mini_UAL_MUX_5B_0_0] -log ip_upgrade.log
+Upgrading 'D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd'
+ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+
+current_bd_design [get_bd_designs MUX_5B]
+current_bd_design [get_bd_designs mini_UAL]
+delete_bd_objs [get_bd_nets xlconcat_3_dout] [get_bd_nets DIV_4_5B_0_S] [get_bd_nets MIROIR_5B_0_S] [get_bd_nets xlconcat_2_dout] [get_bd_nets MUX_5B_0_S] [get_bd_nets xlconcat_4_dout] [get_bd_cells MUX_5B_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX_5B:1.0 MUX_5B_0
+endgroup
+set_property location {6.5 1221 483} [get_bd_cells MUX_5B_0]
+connect_bd_net [get_bd_ports S] [get_bd_pins MUX_5B_0/S]
+connect_bd_net [get_bd_pins MIROIR_5B_0/S] [get_bd_pins MUX_5B_0/MIROIR]
+connect_bd_net [get_bd_pins MUX_5B_0/DIV] [get_bd_pins DIV_4_5B_0/S]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins MUX_5B_0/DIV] [get_bd_pins DIV_4_5B_0/S]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins MIROIR_5B_0/S] [get_bd_pins MUX_5B_0/MIROIR]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_ports S] [get_bd_pins MUX_5B_0/S]'
+undo
+INFO: [Common 17-17] undo 'set_property location {6.5 1221 483} [get_bd_cells MUX_5B_0]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'create_bd_cell -type ip -vlnv xilinx.com:user:MUX_5B:1.0 MUX_5B_0'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets xlconcat_3_dout] [get_bd_nets DIV_4_5B_0_S] [get_bd_nets MIROIR_5B_0_S] [get_bd_nets xlconcat_2_dout] [get_bd_nets MUX_5B_0_S] [get_bd_nets xlconcat_4_dout] [get_bd_cells MUX_5B_0]'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MUX_5B:1.0 MUX_5B_1
+endgroup
+set_property location {7 1204 304} [get_bd_cells MUX_5B_1]
+delete_bd_objs [get_bd_nets xlconcat_3_dout]
+connect_bd_net [get_bd_pins xlconcat_3/dout] [get_bd_pins MUX_5B_1/ADD]
+delete_bd_objs [get_bd_nets xlconcat_4_dout]
+connect_bd_net [get_bd_pins xlconcat_4/dout] [get_bd_pins MUX_5B_1/SOUS]
+delete_bd_objs [get_bd_nets xlconcat_2_dout]
+connect_bd_net [get_bd_pins xlconcat_2/dout] [get_bd_pins MUX_5B_1/R1R0]
+delete_bd_objs [get_bd_nets DIV_4_5B_0_S] [get_bd_nets MIROIR_5B_0_S] [get_bd_nets MUX_5B_0_S] [get_bd_cells MUX_5B_0]
+connect_bd_net [get_bd_pins MUX_5B_1/DIV] [get_bd_pins DIV_4_5B_0/S]
+connect_bd_net [get_bd_pins MIROIR_5B_0/S] [get_bd_pins MUX_5B_1/MIROIR]
+connect_bd_net [get_bd_ports S] [get_bd_pins MUX_5B_1/S]
+regenerate_bd_layout
+validate_bd_design
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+Wrote  : <D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ui/bd_be801e78.ui> 
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+set_property top mini_UAL_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:45:43 2019] Launched mini_UAL_DIV_4_5B_0_0_synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+[Mon Oct 21 14:45:43 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:46:50 2019] Launched mini_UAL_DIV_4_5B_0_0_synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+[Mon Oct 21 14:46:50 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+reset_run mini_UAL_DIV_4_5B_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 14:55:42 2019] Launched mini_UAL_DIV_4_5B_0_0_synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/mini_UAL_DIV_4_5B_0_0_synth_1/runme.log
+[Mon Oct 21 14:55:42 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:DIV_4_5B:1.0 DIV_4_5B_1
+endgroup
+set_property location {6 1032 168} [get_bd_cells DIV_4_5B_1]
+WARNING: [filemgmt 20-645] DesignGraph 'sources_1-0-27-mini_UAL-(6)-9-mini_UAL_DIV_4_5B_0_0-(1)' already exists.
+delete_bd_objs [get_bd_nets DIV_4_5B_0_S]
+connect_bd_net [get_bd_pins MUX_5B_1/DIV] [get_bd_pins DIV_4_5B_1/S]
+delete_bd_objs [get_bd_cells DIV_4_5B_0]
+connect_bd_net [get_bd_ports A] [get_bd_pins DIV_4_5B_1/A]
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+Wrote  : <D:\Users\Nathan\Documents\INF1500\Labo\project_2\project_2.srcs\sources_1\bd\mini_UAL\mini_UAL.bd> 
+Wrote  : <D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/ui/bd_be801e78.ui> 
+export_ip_user_files -of_objects  [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+file delete -force D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+make_wrapper -files [get_files D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd] -top
+INFO: [BD 41-1662] The design 'mini_UAL.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/synth/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/sim/mini_UAL.v
+VHDL Output written to : D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+add_files -norecurse D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/hdl/mini_UAL_wrapper.v
+update_compile_order -fileset sources_1
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.srcs/sources_1/bd/mini_UAL/mini_UAL.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Oct 21 15:01:41 2019] Launched synth_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Oct 21 15:02:46 2019] Launched impl_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Oct 21 15:04:59 2019] Launched impl_1...
+Run output will be captured here: D:/Users/Nathan/Documents/INF1500/Labo/project_2/project_2.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2317.879 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2317.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2317.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 2460.250 ; gain = 947.820
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 21 15:06:20 2019...

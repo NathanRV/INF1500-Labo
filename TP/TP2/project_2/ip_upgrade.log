@@ -1,0 +1,157 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Oct 21 13:35:13 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_MUX_5B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mini_UAL_MUX_5B_0_0 (xilinx.com:user:MUX_5B:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Oct 21 13:23:00 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_MUX_5B_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of mini_UAL_MUX_5B_0_0 (xilinx.com:user:MUX_5B:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mini_UAL_MUX_5B_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'ADD_SOUS'
+
+-Upgrade has added port 'ADD'
+
+-Upgrade has added port 'SOUS'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Oct  8 21:53:21 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_full_add_4B_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mini_UAL_full_add_4B_1_0 (xilinx.com:user:full_add_4B:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Oct  8 15:56:07 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_full_add_4B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mini_UAL_full_add_4B_0_0 (xilinx.com:user:full_add_4B:1.0) from (Rev. 3) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Oct  8 15:03:26 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_four_bit_full_adder_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mini_UAL_four_bit_full_adder_0_0 (polymtl.ca:user:four_bit_full_adder:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Oct  8 15:03:26 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_MIROIR_5B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mini_UAL_MIROIR_5B_0_0 (polymtl.ca:user:MIROIR_5B:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Oct  8 15:03:26 2019
+| Host         : DESKTOP-8B1C8TT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mini_UAL_DIV_4_5B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mini_UAL_DIV_4_5B_0_0 (polymtl.ca:user:DIV_4_5B:1.0 (Rev. 2)) to Vivado generation flows.
+
