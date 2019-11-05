@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1" LaunchDir="D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MUX_2_vers_1_4bits_MUX_1B_0_1_synth_1" LaunchDir="D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1"/>
+	</Run>
+	<Run Id="MUX_2_vers_1_4bits_MUX_1B_1_0_synth_1" LaunchDir="D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1"/>
+	</Run>
+	<Run Id="MUX_2_vers_1_4bits_MUX_1B_1_1_synth_1" LaunchDir="D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_MUX_1B_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MUX_2_vers_1_4bits_MUX_1B_0_0_synth_1"/>
+	</Run>
+	<Run Id="MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0_synth_1" LaunchDir="D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0_synth_1" LaunchDir="D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.runs/MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

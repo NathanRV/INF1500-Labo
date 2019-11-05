@@ -1,0 +1,888 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov  3 15:04:19 2019
+# Process ID: 2848
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9756 D:\Users\Nathan\Documents\INF1500\Labo\project_3\project_3.xpr
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/project_3/vivado.log
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Users/Nathan/Documents/INF1500/Labo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Users/Nathan/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_0_3' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_0_3/code_Gray_xup_and2_0_3.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_0_3' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_0_3/code_Gray_xup_and2_0_3_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_0_3' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_0_3/code_Gray_xup_and2_0_3_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_0_3' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_0_3/code_Gray_xup_and2_0_3_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_0_3' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_0_3/code_Gray_xup_and2_0_3_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_or2_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_or2_0_2/code_Gray_xup_or2_0_2.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_or2_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_or2_0_2/code_Gray_xup_or2_0_2_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_or2_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_or2_0_2/code_Gray_xup_or2_0_2_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_or2_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_or2_0_2/code_Gray_xup_or2_0_2_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_or2_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_or2_0_2/code_Gray_xup_or2_0_2_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_inv_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_inv_0_2/code_Gray_xup_inv_0_2.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_inv_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_inv_0_2/code_Gray_xup_inv_0_2_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_inv_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_inv_0_2/code_Gray_xup_inv_0_2_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_inv_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_inv_0_2/code_Gray_xup_inv_0_2_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_inv_0_2' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_inv_0_2/code_Gray_xup_inv_0_2_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_5_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_5_0/code_Gray_xup_and2_5_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_5_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_5_0/code_Gray_xup_and2_5_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_5_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_5_0/code_Gray_xup_and2_5_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_5_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_5_0/code_Gray_xup_and2_5_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'code_Gray_xup_and2_5_0' generated file not found 'd:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ip/code_Gray_xup_and2_5_0/code_Gray_xup_and2_5_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 745.762 ; gain = 155.391
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+report_ip_status -name ip_status 
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_Conversion/Code_Conversion.bd}
+Adding cell -- xilinx.com:user:code_Gray:1.0 - code_Gray_0
+Adding cell -- xilinx.com:user:Code_secret:1.0 - Code_secret_0
+Adding cell -- xilinx.com:user:MUX_2_vers_1_4bits:1.0 - MUX_2_vers_1_4bits_0
+Adding cell -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Successfully read diagram <Code_Conversion> from BD file <D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_Conversion/Code_Conversion.bd>
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Code_Conversion_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Code_Conversion_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_0_0/sim/code_Gray_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_or2_0_0/sim/code_Gray_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_or2_0_3/sim/code_Gray_xup_or2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_inv_0_0/sim/code_Gray_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_0_1/sim/code_Gray_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_inv_0_1/sim/code_Gray_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_0_2/sim/code_Gray_xup_and2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_inv_1_0/sim/code_Gray_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_2_0/sim/code_Gray_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_or2_3_0/sim/code_Gray_xup_or2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_3_0/sim/code_Gray_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v" into library xlconcat_v2_1_1
+INFO: [VRFC 10-311] analyzing module xlconcat_v2_1_1_xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xlconcat_0_0/sim/code_Gray_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_0_3/sim/code_Gray_xup_and2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_or2_0_2/sim/code_Gray_xup_or2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_inv_0_2/sim/code_Gray_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/src/code_Gray_xup_and2_5_0/sim/code_Gray_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_and3_0_0/sim/Code_secret_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_inv_0_0/sim/Code_secret_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_inv_0_1/sim/Code_secret_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_inv_0_2/sim/Code_secret_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_and3_0_1/sim/Code_secret_xup_and3_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and3_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_and2_0_0/sim/Code_secret_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xup_and2_0_1/sim/Code_secret_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_xlconcat_0_0/sim/Code_secret_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_0/sim/MUX_1B_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_0/sim/MUX_1B_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_inv_0_1/sim/MUX_1B_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_1/sim/MUX_1B_xup_and3_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_2/sim/MUX_1B_xup_and3_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_and3_0_3/sim/MUX_1B_xup_and3_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_and3_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/ipshared/1eaf/xup_or4.srcs/sources_1/new/xup_or4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/src/MUX_1B_xup_or4_0_0/sim/MUX_1B_xup_or4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_1B_xup_or4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v" into library xlconstant_v1_1_5
+INFO: [VRFC 10-311] analyzing module xlconstant_v1_1_5_xlconstant
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_xlconstant_0_0/sim/MUX_2_vers_1_4bits_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_vers_1_4bits_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_xlconcat_0_0/sim/MUX_2_vers_1_4bits_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_vers_1_4bits_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_xlconcat_0_0/sim/Code_Conversion_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_Conversion_xlconcat_0_0
+"xvhdl --incr --relax -prj Code_Conversion_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ipshared/fcc9/sim/code_Gray.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'code_Gray'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_code_Gray_0_0/sim/Code_Conversion_code_Gray_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_Conversion_code_Gray_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/ipshared/8559/sim/ATAD_SPLIT_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/src/Code_secret_ATAD_SPLIT_3_0_0/sim/Code_secret_ATAD_SPLIT_3_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_secret_ATAD_SPLIT_3_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ipshared/8d83/sim/Code_secret.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_secret'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_Code_secret_0_0/sim/Code_Conversion_Code_secret_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_Conversion_Code_secret_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/ipshared/306d/sim/MUX_1B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_1B'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_0/sim/MUX_2_vers_1_4bits_MUX_1B_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_0_1/sim/MUX_2_vers_1_4bits_MUX_1B_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_1_0/sim/MUX_2_vers_1_4bits_MUX_1B_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_MUX_1B_1_1/sim/MUX_2_vers_1_4bits_MUX_1B_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_MUX_1B_1_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0/sim/MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/src/MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0/sim/MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ipshared/c5d0/sim/MUX_2_vers_1_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_2_vers_1_4bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_MUX_2_vers_1_4bits_0_0/sim/Code_Conversion_MUX_2_vers_1_4bits_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_Conversion_MUX_2_vers_1_4bits_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/ip/Code_Conversion_ATAD_SPLIT_4_0_0/sim/Code_Conversion_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_Conversion_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_Conversion/sim/Code_Conversion.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_Conversion'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_Conversion/hdl/Code_Conversion_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_Conversion_wrapper'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 943.652 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ce2e0e73ea8e4541ba08e80a2e0fde5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_1 -L xlconstant_v1_1_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Code_Conversion_wrapper_behav xil_defaultlib.Code_Conversion_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture code_conversion_atad_split_4_0_0_arch of entity xil_defaultlib.Code_Conversion_ATAD_SPLIT_4_0_0 [code_conversion_atad_split_4_0_0...]
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_3 [atad_split_3_default]
+Compiling architecture code_secret_atad_split_3_0_0_arch of entity xil_defaultlib.Code_secret_ATAD_SPLIT_3_0_0 [code_secret_atad_split_3_0_0_def...]
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(dout_wi...
+Compiling module xil_defaultlib.Code_secret_xlconcat_0_0
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.Code_secret_xup_and2_0_0
+Compiling module xil_defaultlib.Code_secret_xup_and2_0_1
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.Code_secret_xup_and3_0_0
+Compiling module xil_defaultlib.Code_secret_xup_and3_0_1
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.Code_secret_xup_inv_0_0
+Compiling module xil_defaultlib.Code_secret_xup_inv_0_1
+Compiling module xil_defaultlib.Code_secret_xup_inv_0_2
+Compiling architecture structure of entity xil_defaultlib.Code_secret [code_secret_default]
+Compiling architecture code_conversion_code_secret_0_0_arch of entity xil_defaultlib.Code_Conversion_Code_secret_0_0 [code_conversion_code_secret_0_0_...]
+Compiling architecture mux_2_vers_1_4bits_atad_split_4_0_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_ATAD_SPLIT_4_0_0 [mux_2_vers_1_4bits_atad_split_4_...]
+Compiling architecture mux_2_vers_1_4bits_atad_split_4_1_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_ATAD_SPLIT_4_1_0 [mux_2_vers_1_4bits_atad_split_4_...]
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_0
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_1
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_2
+Compiling module xil_defaultlib.MUX_1B_xup_and3_0_3
+Compiling module xil_defaultlib.MUX_1B_xup_inv_0_0
+Compiling module xil_defaultlib.MUX_1B_xup_inv_0_1
+Compiling module xil_defaultlib.xup_or4
+Compiling module xil_defaultlib.MUX_1B_xup_or4_0_0
+Compiling architecture structure of entity xil_defaultlib.MUX_1B [mux_1b_default]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_0_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_0_0 [mux_2_vers_1_4bits_mux_1b_0_0_de...]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_0_1_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_0_1 [mux_2_vers_1_4bits_mux_1b_0_1_de...]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_1_0_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_1_0 [mux_2_vers_1_4bits_mux_1b_1_0_de...]
+Compiling architecture mux_2_vers_1_4bits_mux_1b_1_1_arch of entity xil_defaultlib.MUX_2_vers_1_4bits_MUX_1B_1_1 [mux_2_vers_1_4bits_mux_1b_1_1_de...]
+Compiling module xil_defaultlib.MUX_2_vers_1_4bits_xlconcat_0_0
+Compiling module xlconstant_v1_1_5.xlconstant_v1_1_5_xlconstant(CON...
+Compiling module xil_defaultlib.MUX_2_vers_1_4bits_xlconstant_0_...
+Compiling architecture structure of entity xil_defaultlib.MUX_2_vers_1_4bits [mux_2_vers_1_4bits_default]
+Compiling architecture code_conversion_mux_2_vers_1_4bits_0_0_arch of entity xil_defaultlib.Code_Conversion_MUX_2_vers_1_4bits_0_0 [code_conversion_mux_2_vers_1_4bi...]
+Compiling module xil_defaultlib.code_Gray_xlconcat_0_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_1
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_2
+Compiling module xil_defaultlib.code_Gray_xup_and2_2_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_3_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_3
+Compiling module xil_defaultlib.code_Gray_xup_and2_5_0
+Compiling module xil_defaultlib.code_Gray_xup_inv_0_0
+Compiling module xil_defaultlib.code_Gray_xup_inv_0_1
+Compiling module xil_defaultlib.code_Gray_xup_inv_1_0
+Compiling module xil_defaultlib.code_Gray_xup_inv_0_2
+Compiling module xil_defaultlib.xup_or2
+Compiling module xil_defaultlib.code_Gray_xup_or2_0_0
+Compiling module xil_defaultlib.code_Gray_xup_or2_0_2
+Compiling module xil_defaultlib.code_Gray_xup_or2_0_3
+Compiling module xil_defaultlib.code_Gray_xup_or2_3_0
+Compiling architecture structure of entity xil_defaultlib.code_Gray [code_gray_default]
+Compiling architecture code_conversion_code_gray_0_0_arch of entity xil_defaultlib.Code_Conversion_code_Gray_0_0 [code_conversion_code_gray_0_0_de...]
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(dout_wi...
+Compiling module xil_defaultlib.Code_Conversion_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.Code_Conversion [code_conversion_default]
+Compiling architecture structure of entity xil_defaultlib.code_conversion_wrapper
+Built simulation snapshot Code_Conversion_wrapper_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/Code_Conversion_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/Code_Conversion_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Nov  3 15:25:39 2019. For additional details about this file, please refer to the WebTalk help file at D:/Users/Nathan/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  3 15:25:39 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 943.652 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Code_Conversion_wrapper_behav -key {Behavioral:sim_1:Functional:Code_Conversion_wrapper} -tclbatch {Code_Conversion_wrapper.tcl} -protoinst "protoinst_files/code_Gray.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/Code_Conversion.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/code_Gray.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_Conversion.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+Time resolution is 1 ps
+source Code_Conversion_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Code_Conversion_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 943.652 ; gain = 0.000
+add_force {/Code_Conversion_wrapper/A} -radix bin {0111 0ns}
+add_force {/Code_Conversion_wrapper/R0} -radix hex {0 0ns} {1 2500000ps} -repeat_every 5000000ps
+run 10 us
+add_force {/Code_Conversion_wrapper/A} -radix bin {0100 0ns}
+run 10 us
+set_property top Code_secret_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Code_secret_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Code_secret_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_and3_0_0/sim/Code_secret_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_inv_0_0/sim/Code_secret_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_inv_0_1/sim/Code_secret_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_inv_0_2/sim/Code_secret_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_and3_0_1/sim/Code_secret_xup_and3_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and3_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_and2_0_0/sim/Code_secret_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xup_and2_0_1/sim/Code_secret_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_secret/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v" into library xlconcat_v2_1_1
+INFO: [VRFC 10-311] analyzing module xlconcat_v2_1_1_xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_xlconcat_0_0/sim/Code_secret_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code_secret_xlconcat_0_0
+"xvhdl --incr --relax -prj Code_secret_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ipshared/8559/sim/ATAD_SPLIT_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/ip/Code_secret_ATAD_SPLIT_3_0_0/sim/Code_secret_ATAD_SPLIT_3_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_secret_ATAD_SPLIT_3_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/Code_secret/sim/Code_secret.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Code_secret'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ce2e0e73ea8e4541ba08e80a2e0fde5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Code_secret_wrapper_behav xil_defaultlib.Code_secret_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_3 [atad_split_3_default]
+Compiling architecture code_secret_atad_split_3_0_0_arch of entity xil_defaultlib.Code_secret_ATAD_SPLIT_3_0_0 [code_secret_atad_split_3_0_0_def...]
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(dout_wi...
+Compiling module xil_defaultlib.Code_secret_xlconcat_0_0
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.Code_secret_xup_and2_0_0
+Compiling module xil_defaultlib.Code_secret_xup_and2_0_1
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.Code_secret_xup_and3_0_0
+Compiling module xil_defaultlib.Code_secret_xup_and3_0_1
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.Code_secret_xup_inv_0_0
+Compiling module xil_defaultlib.Code_secret_xup_inv_0_1
+Compiling module xil_defaultlib.Code_secret_xup_inv_0_2
+Compiling architecture structure of entity xil_defaultlib.Code_secret [code_secret_default]
+Compiling architecture structure of entity xil_defaultlib.code_secret_wrapper
+Built simulation snapshot Code_secret_wrapper_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/Code_secret_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/Code_secret_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Nov  3 15:32:49 2019. For additional details about this file, please refer to the WebTalk help file at D:/Users/Nathan/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  3 15:32:49 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1242.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Code_secret_wrapper_behav -key {Behavioral:sim_1:Functional:Code_secret_wrapper} -tclbatch {Code_secret_wrapper.tcl} -protoinst "protoinst_files/code_Gray.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/Code_Conversion.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/code_Gray.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/code_Gray.protoinst for the following reason(s):
+There are no instances of module "code_Gray" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst for the following reason(s):
+There are no instances of module "MUX_2_vers_1_4bits" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_Conversion.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Code_Conversion.protoinst for the following reason(s):
+There are no instances of module "Code_Conversion" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst for the following reason(s):
+There are no instances of module "MUX_2_vers_1_4bits" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/code_Gray.protoinst for the following reason(s):
+There are no instances of module "code_Gray" in the design.
+
+Time resolution is 1 ps
+source Code_secret_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Code_secret_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1248.453 ; gain = 5.461
+add_force {/Code_secret_wrapper/A} -radix bin {100 0ns}
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns} {4 50000ps} -repeat_every 100000ps
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns} {7 5000ps} -repeat_every 10000ps
+run 70 ns
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns} {7 1000ps} -repeat_every 10000ps
+run 70 ns
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns}
+run 10 ns
+run 855 ns
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix bin {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Code_secret_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Code_secret_wrapper_vlog.prj"
+"xvhdl --incr --relax -prj Code_secret_wrapper_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ce2e0e73ea8e4541ba08e80a2e0fde5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Code_secret_wrapper_behav xil_defaultlib.Code_secret_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Code_secret_wrapper_behav -key {Behavioral:sim_1:Functional:Code_secret_wrapper} -tclbatch {Code_secret_wrapper.tcl} -protoinst "protoinst_files/code_Gray.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/Code_Conversion.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/code_Gray.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/code_Gray.protoinst for the following reason(s):
+There are no instances of module "code_Gray" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst for the following reason(s):
+There are no instances of module "MUX_2_vers_1_4bits" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_Conversion.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Code_Conversion.protoinst for the following reason(s):
+There are no instances of module "Code_Conversion" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst for the following reason(s):
+There are no instances of module "MUX_2_vers_1_4bits" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/code_Gray.protoinst for the following reason(s):
+There are no instances of module "code_Gray" in the design.
+
+Time resolution is 1 ps
+source Code_secret_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Code_secret_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1248.453 ; gain = 0.000
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {1 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {2 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {3 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {4 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {5 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {6 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {7 0ns}
+run 10 ns
+set_property top code_Gray_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Users/Nathan/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'code_Gray_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj code_Gray_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_0_0/sim/code_Gray_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_or2_0_0/sim/code_Gray_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_or2_0_3/sim/code_Gray_xup_or2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_inv_0_0/sim/code_Gray_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_0_1/sim/code_Gray_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_inv_0_1/sim/code_Gray_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_0_2/sim/code_Gray_xup_and2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_inv_1_0/sim/code_Gray_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_2_0/sim/code_Gray_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_or2_3_0/sim/code_Gray_xup_or2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_3_0/sim/code_Gray_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v" into library xlconcat_v2_1_1
+INFO: [VRFC 10-311] analyzing module xlconcat_v2_1_1_xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xlconcat_0_0/sim/code_Gray_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_0_3/sim/code_Gray_xup_and2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_or2_0_2/sim/code_Gray_xup_or2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_or2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_inv_0_2/sim/code_Gray_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/ip/code_Gray_xup_and2_5_0/sim/code_Gray_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module code_Gray_xup_and2_5_0
+"xvhdl --incr --relax -prj code_Gray_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.ip_user_files/bd/code_Gray/sim/code_Gray.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'code_Gray'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/code_Gray/hdl/code_Gray_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'code_Gray_wrapper'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Users/Nathan/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ce2e0e73ea8e4541ba08e80a2e0fde5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot code_Gray_wrapper_behav xil_defaultlib.code_Gray_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(dout_wi...
+Compiling module xil_defaultlib.code_Gray_xlconcat_0_0
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_1
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_2
+Compiling module xil_defaultlib.code_Gray_xup_and2_2_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_3_0
+Compiling module xil_defaultlib.code_Gray_xup_and2_0_3
+Compiling module xil_defaultlib.code_Gray_xup_and2_5_0
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.code_Gray_xup_inv_0_0
+Compiling module xil_defaultlib.code_Gray_xup_inv_0_1
+Compiling module xil_defaultlib.code_Gray_xup_inv_1_0
+Compiling module xil_defaultlib.code_Gray_xup_inv_0_2
+Compiling module xil_defaultlib.xup_or2
+Compiling module xil_defaultlib.code_Gray_xup_or2_0_0
+Compiling module xil_defaultlib.code_Gray_xup_or2_0_2
+Compiling module xil_defaultlib.code_Gray_xup_or2_0_3
+Compiling module xil_defaultlib.code_Gray_xup_or2_3_0
+Compiling architecture structure of entity xil_defaultlib.code_Gray [code_gray_default]
+Compiling architecture structure of entity xil_defaultlib.code_gray_wrapper
+Built simulation snapshot code_Gray_wrapper_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/code_Gray_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/code_Gray_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Nov  3 15:39:45 2019. For additional details about this file, please refer to the WebTalk help file at D:/Users/Nathan/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  3 15:39:45 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1416.566 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "code_Gray_wrapper_behav -key {Behavioral:sim_1:Functional:code_Gray_wrapper} -tclbatch {code_Gray_wrapper.tcl} -protoinst "protoinst_files/code_Gray.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/Code_Conversion.protoinst" -protoinst "protoinst_files/Code_secret.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_1B.protoinst" -protoinst "protoinst_files/MUX_2_vers_1_4bits.protoinst" -protoinst "protoinst_files/code_Gray.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Code_secret.protoinst for the following reason(s):
+There are no instances of module "Code_secret" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst for the following reason(s):
+There are no instances of module "MUX_2_vers_1_4bits" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_Conversion.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Code_Conversion.protoinst for the following reason(s):
+There are no instances of module "Code_Conversion" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Code_secret.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Code_secret.protoinst for the following reason(s):
+There are no instances of module "Code_secret" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_1B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_1B.protoinst for the following reason(s):
+There are no instances of module "MUX_1B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_2_vers_1_4bits.protoinst for the following reason(s):
+There are no instances of module "MUX_2_vers_1_4bits" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/code_Gray.protoinst
+Time resolution is 1 ps
+source code_Gray_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'code_Gray_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1416.566 ; gain = 0.000
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E2} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E3} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E2} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E3} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E2} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E2} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1416.566 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  3 15:45:37 2019...

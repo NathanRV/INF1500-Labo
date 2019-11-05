@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/MUX_1B/sim/MUX_1B.vhd" \
+
+nosort

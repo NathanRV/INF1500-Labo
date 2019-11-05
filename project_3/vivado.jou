@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov  3 15:04:19 2019
+# Process ID: 2848
+# Current directory: D:/Users/Nathan/Documents/INF1500/Labo/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9756 D:\Users\Nathan\Documents\INF1500\Labo\project_3\project_3.xpr
+# Log file: D:/Users/Nathan/Documents/INF1500/Labo/project_3/vivado.log
+# Journal file: D:/Users/Nathan/Documents/INF1500/Labo/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+report_ip_status -name ip_status 
+open_bd_design {D:/Users/Nathan/Documents/INF1500/Labo/project_3/project_3.srcs/sources_1/bd/Code_Conversion/Code_Conversion.bd}
+launch_simulation
+source Code_Conversion_wrapper.tcl
+add_force {/Code_Conversion_wrapper/A} -radix bin {0111 0ns}
+add_force {/Code_Conversion_wrapper/R0} -radix hex {0 0ns} {1 2500000ps} -repeat_every 5000000ps
+run 10 us
+add_force {/Code_Conversion_wrapper/A} -radix bin {0100 0ns}
+run 10 us
+set_property top Code_secret_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source Code_secret_wrapper.tcl
+add_force {/Code_secret_wrapper/A} -radix bin {100 0ns}
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns} {4 50000ps} -repeat_every 100000ps
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns} {7 5000ps} -repeat_every 10000ps
+run 70 ns
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns} {7 1000ps} -repeat_every 10000ps
+run 70 ns
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns}
+run 10 ns
+run 855 ns
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix bin {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+close_sim
+launch_simulation
+source Code_secret_wrapper.tcl
+add_force {/Code_secret_wrapper/A} -radix hex {0 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {1 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {2 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {3 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {4 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {5 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {6 0ns}
+run 10 ns
+add_force {/Code_secret_wrapper/A} -radix hex {7 0ns}
+run 10 ns
+set_property top code_Gray_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source code_Gray_wrapper.tcl
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E2} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E3} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E2} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E3} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E2} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E2} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E1} -radix hex {0 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E1} -radix hex {1 0ns}
+add_force {/code_Gray_wrapper/E0} -radix hex {0 0ns}
+run 10 ns
+add_force {/code_Gray_wrapper/E0} -radix hex {1 0ns}
+run 10 ns
+close_sim
+close_sim
