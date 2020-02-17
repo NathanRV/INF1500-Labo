@@ -1,0 +1,1 @@
+-wto "181cd2b8ac6048f2a7cce982ebac8587" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "CompletLab4_behav" "xil_defaultlib.CompletLab4" -log "elaborate.log" 

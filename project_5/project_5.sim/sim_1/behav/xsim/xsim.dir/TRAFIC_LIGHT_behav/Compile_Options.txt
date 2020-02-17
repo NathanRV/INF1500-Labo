@@ -1,0 +1,1 @@
+-wto "27a270852c1544a1af5050047947535b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TRAFIC_LIGHT_behav" "xil_defaultlib.TRAFIC_LIGHT" -log "elaborate.log" 
